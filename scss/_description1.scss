@@ -1,0 +1,66 @@
+@import "util";
+
+.main {
+    padding-top: 15vh;
+    min-height: 100vh;
+
+    .description1 {
+        padding-top: 20vh;
+        padding-left: 15px;
+        display: grid;
+        grid-template-areas:
+            "header1"
+            "writeup1";
+        grid-gap: 20px;
+
+        .header1 {
+            grid-area: "header1";
+            font-size: 34px;
+            font-weight: 800;
+        }
+
+        .writeup1 {
+            grid-area: "writeup1";
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 28px;
+            max-width: 80%;
+        }
+
+        .sign-up1 {
+            display: inline-block;
+            padding: 15px;
+            margin-top: 15px;
+            margin-right: 5px;
+            height: 40px;
+            min-width: 80px;
+            background: #348aa7;
+            border: none;
+            outline: none;
+            color: white;
+            font-family: inherit;
+            font-weight: 700;
+            font-size: 15px;
+            border-radius: 3px;
+            box-shadow: 0 5px 0px darken(#348aa7, 0%);
+            border-bottom: 2px solid darken(#348aa7, 3%);
+            width: 100px;
+            text-align: center;
+            padding-bottom: 10px;
+            text-decoration: none;
+
+            &:hover {
+                background: darken(#348aa7, 5%);
+                box-shadow: 0 4px 1px darken(#348aa7, 5%);
+                border-bottom: 2px solid darken(#348aa7, 8%);
+                transition: all 0.1s ease-in;
+            }
+
+            &:active {
+                transform: translateY(4px);
+                border-bottom-width: 2px;
+                box-shadow: none;
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+@import "camphor";
+@import "description1";
+@import "util";
+@import "header";
+
+* {
+    font-family: "Camphor", "Open Sans", "Segoe UI", sans-serif;
+    color: $white;
+    box-sizing: border-box;
+}
+
+a {
+    transition: all 0.2s ease;
+    transition-property: transform, opacity, color, border-color,
+        background-color;
+}
+
+body {
+    background-color: $black;
+}
