@@ -54,7 +54,7 @@
     .main .description1 .header1 {
       grid-area: "header1";
       font-size: 34px;
-      font-weight: 800; }
+      font-weight: 500; }
     .main .description1 .writeup1 {
       grid-area: "writeup1";
       font-size: 16px;
@@ -93,12 +93,11 @@
         box-shadow: none; }
 
 header {
-  position: relative;
-  max-width: 100%; }
+  max-width: 100%;
+  padding-top: 5px; }
   header .container {
     margin-left: 10px;
     display: flex;
-    top: 10px;
     height: 50px;
     align-items: center;
     justify-content: space-between; }
@@ -163,9 +162,9 @@ nav {
   box-shadow: 0 50px 100px -20px rgba(50, 50, 93, 0.25), 0 30px 60px -30px rgba(207, 105, 105, 0.3); }
   nav .projects {
     display: grid;
-    grid-gap: 5px;
+    grid-gap: 7px;
     grid-template-columns: 50px 1fr;
-    grid-template-rows: repeat(7, auto);
+    grid-template-rows: repeat(8, auto);
     margin: 20px 20px; }
     nav .projects .sign-up2 {
       margin-top: 10px;
@@ -186,6 +185,13 @@ nav {
     text-decoration: none;
     width: auto;
     align-content: center; }
+  nav .projects > .projectlogo {
+    height: 40px;
+    width: 40px;
+    border-radius: 20%; }
+  nav .projects > .projectlogorag {
+    height: 33px;
+    width: 40px; }
 
 .shown {
   visibility: visible;
@@ -204,4 +210,4 @@ html,
 body {
   max-width: 100%;
   overflow-x: hidden;
-  background-color: #12100e; }
+  background-color: #242325; }
