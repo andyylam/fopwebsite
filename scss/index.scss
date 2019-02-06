@@ -18,9 +18,10 @@ a {
 
 html,
 body {
-    max-width: 100%;
+    max-width: 100vh;
     overflow-x: hidden;
-    @include background;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .background {

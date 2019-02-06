@@ -2,10 +2,11 @@
 
 .main {
     padding-top: 15vh;
+    @include background;
 
     .description1 {
         padding-top: 20vh;
-        padding-left: 15px;
+        padding-left: 25px;
         display: grid;
         grid-template-areas:
             "header1"
