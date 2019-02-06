@@ -5,6 +5,7 @@
 @import "nav";
 @import "description2";
 @import "cards";
+@import "footer";
 
 * {
     font-family: "Camphor", "Open Sans", "Segoe UI", sans-serif;
@@ -24,6 +25,7 @@ body {
     overflow-x: hidden;
     margin-left: 0;
     margin-right: 0;
+    margin-bottom: 0;
 }
 
 .background {

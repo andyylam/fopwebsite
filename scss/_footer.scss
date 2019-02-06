@@ -1,0 +1,32 @@
+@import "util";
+
+footer {
+    padding-top: 5vh;
+    border-top: lightgrey solid 1px;
+    background-color: whitesmoke;
+    width: 100%;
+    margin: 0;
+
+    .logos {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        a {
+            margin: 0px 10px;
+
+            i {
+                color: $grey;
+                font-size: 30px;
+            }
+        }
+    }
+
+    .credits {
+        color: $grey;
+        padding: 15px 0;
+        margin: auto;
+        font-size: 10px;
+        max-width: 70%;
+    }
+}

@@ -252,18 +252,19 @@ nav {
 .cards {
   display: grid;
   grid-template-rows: repeat(5, 1fr);
-  background-color: whitesmoke; }
+  background-color: whitesmoke;
+  padding-bottom: 20px; }
   .cards .card {
     text-decoration: none;
     cursor: pointer;
-    margin: 15px;
-    font-size: 16px;
+    margin: 12px;
+    font-size: 14px;
     overflow: hidden;
     color: #242325;
     background-color: white;
     border-radius: 8px;
     box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25), 0 8px 16px -8px rgba(0, 0, 0, 0.3);
-    padding: 30px;
+    padding: 10px 30px;
     display: grid;
     grid-gap: 10px;
     grid-template-areas: "img title" "img carddes";
@@ -285,6 +286,28 @@ nav {
       grid-area: "carddes";
       color: #242325; }
 
+footer {
+  padding-top: 5vh;
+  border-top: lightgrey solid 1px;
+  background-color: whitesmoke;
+  width: 100%;
+  margin: 0; }
+  footer .logos {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    footer .logos a {
+      margin: 0px 10px; }
+      footer .logos a i {
+        color: #6b7c93;
+        font-size: 30px; }
+  footer .credits {
+    color: #6b7c93;
+    padding: 15px 0;
+    margin: auto;
+    font-size: 10px;
+    max-width: 70%; }
+
 * {
   font-family: "Camphor", "Open Sans", "Segoe UI", sans-serif;
   color: #f6f9fc;
@@ -299,4 +322,5 @@ body {
   max-width: 100%;
   overflow-x: hidden;
   margin-left: 0;
-  margin-right: 0; }
+  margin-right: 0;
+  margin-bottom: 0; }
