@@ -1,0 +1,30 @@
+@import "util";
+
+.description2 {
+    margin-top: 70vh;
+    padding-top: 10vh;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    grid-gap: 15px;
+    background-color: whitesmoke;
+
+    .d2header {
+        font-weight: 600;
+        margin: 0px 20px;
+        color: $charcoal;
+    }
+
+    .foplogo {
+        margin-right: 30px;
+        width: 200px;
+        height: 150px;
+    }
+
+    .d2writeup {
+        grid-column: span 2;
+        margin: 0px 20px;
+        color: $charcoal;
+    }
+}

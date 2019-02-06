@@ -3,6 +3,8 @@
 @import "util";
 @import "header";
 @import "nav";
+@import "description2";
+@import "cards";
 
 * {
     font-family: "Camphor", "Open Sans", "Segoe UI", sans-serif;
@@ -18,7 +20,7 @@ a {
 
 html,
 body {
-    max-width: 100vh;
+    max-width: 100%;
     overflow-x: hidden;
     margin-left: 0;
     margin-right: 0;

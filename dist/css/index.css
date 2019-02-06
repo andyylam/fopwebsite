@@ -44,28 +44,30 @@
 
 .main {
   padding-top: 15vh; }
-  .main#bg-img {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/beachdayimg.jpg);
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
-    z-index: -1;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    right: 0;
-    top: 0;
-    left: 0; }
   .main .description1 {
-    padding-top: 20vh;
+    padding-top: 30vh;
     padding-left: 25px;
     display: grid;
     grid-template-areas: "header1" "writeup1";
-    grid-gap: 20px; }
+    grid-gap: 10px; }
+    .main .description1#bg-img {
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/beachdayimg.jpg);
+      background-attachment: fixed;
+      background-size: cover;
+      background-position: center;
+      z-index: -1;
+      position: absolute;
+      width: 100%;
+      height: 100vh;
+      right: 0;
+      top: 0;
+      left: 0; }
     .main .description1 .header1 {
       grid-area: "header1";
-      font-size: 34px;
-      font-weight: 500; }
+      font-size: 40px;
+      font-weight: 500;
+      align-self: flex-end;
+      padding-bottom: 15px; }
     .main .description1 .writeup1 {
       grid-area: "writeup1";
       font-size: 16px;
@@ -82,7 +84,7 @@
       background: #348aa7;
       border: none;
       outline: none;
-      color: white;
+      color: whitesmoke;
       font-family: inherit;
       font-weight: 700;
       font-size: 15px;
@@ -104,27 +106,21 @@
         box-shadow: none; }
 
 header {
-  max-width: 100%;
+  width: 100%;
   padding-top: 5px;
   background-color: transparent; }
   header .container {
     margin-left: 10px;
     display: flex;
     height: 50px;
-    align-items: center;
-    justify-content: space-between; }
+    align-items: center; }
     header .container .main-logo {
       margin-left: 10px;
       width: 200px;
       height: 50px; }
-    header .container .main-header {
-      font-family: "Oswald", sans-serif;
-      font-weight: 400;
-      font-size: 23px;
-      line-height: 50em;
-      margin-right: auto;
-      padding-left: 10px; }
     header .container .hamburger {
+      margin-left: auto;
+      margin-right: 10px;
       height: 50px;
       width: 50px;
       cursor: pointer;
@@ -135,8 +131,7 @@ header {
       align-items: center;
       padding-top: 10px;
       transition: all 0.5s ease-out;
-      z-index: 1;
-      margin-right: 10px; }
+      z-index: 1; }
       header .container .hamburger .patty {
         display: block;
         width: 26px;
@@ -232,6 +227,64 @@ nav {
     transform: scale(0.7);
     height: 0; } }
 
+.description2 {
+  margin-top: 70vh;
+  padding-top: 10vh;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  align-items: center;
+  grid-gap: 15px;
+  background-color: whitesmoke; }
+  .description2 .d2header {
+    font-weight: 600;
+    margin: 0px 20px;
+    color: #242325; }
+  .description2 .foplogo {
+    margin-right: 30px;
+    width: 200px;
+    height: 150px; }
+  .description2 .d2writeup {
+    grid-column: span 2;
+    margin: 0px 20px;
+    color: #242325; }
+
+.cards {
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+  background-color: whitesmoke; }
+  .cards .card {
+    text-decoration: none;
+    cursor: pointer;
+    margin: 15px;
+    font-size: 16px;
+    overflow: hidden;
+    color: #242325;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25), 0 8px 16px -8px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-areas: "img title" "img carddes";
+    align-items: center; }
+    .cards .card img {
+      grid-area: "img";
+      grid-row: span 2;
+      height: 100px;
+      width: 100px;
+      margin-right: 20px; }
+    .cards .card .title {
+      grid-area: "title";
+      color: #242325;
+      font-weight: 500;
+      align-self: flex-end; }
+      .cards .card .title i {
+        color: #6b7c93; }
+    .cards .card .carddes {
+      grid-area: "carddes";
+      color: #242325; }
+
 * {
   font-family: "Camphor", "Open Sans", "Segoe UI", sans-serif;
   color: #f6f9fc;
@@ -243,7 +296,7 @@ a {
 
 html,
 body {
-  max-width: 100vh;
+  max-width: 100%;
   overflow-x: hidden;
   margin-left: 0;
   margin-right: 0; }

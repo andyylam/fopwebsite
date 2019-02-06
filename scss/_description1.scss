@@ -2,21 +2,23 @@
 
 .main {
     padding-top: 15vh;
-    @include background;
 
     .description1 {
-        padding-top: 20vh;
+        @include background;
+        padding-top: 30vh;
         padding-left: 25px;
         display: grid;
         grid-template-areas:
             "header1"
             "writeup1";
-        grid-gap: 20px;
+        grid-gap: 10px;
 
         .header1 {
             grid-area: "header1";
-            font-size: 34px;
+            font-size: 40px;
             font-weight: 500;
+            align-self: flex-end;
+            padding-bottom: 15px;
         }
 
         .writeup1 {
@@ -37,7 +39,7 @@
             background: #348aa7;
             border: none;
             outline: none;
-            color: white;
+            color: whitesmoke;
             font-family: inherit;
             font-weight: 700;
             font-size: 15px;
