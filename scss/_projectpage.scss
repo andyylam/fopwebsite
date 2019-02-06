@@ -1,0 +1,80 @@
+@import "util";
+
+.main {
+    .description1 {
+        @include backgroundfsc;
+        padding-top: 25vh;
+        padding-left: 25px;
+        display: grid;
+        grid-template-rows: 1fr 0.3fr 1fr;
+
+        .fsc-header2 {
+            font-size: 20px;
+            font-weight: 500;
+        }
+
+        .fsc-writeup1 {
+            font-size: 14px;
+            line-height: 1.15rem;
+            font-weight: 400;
+            max-width: 90%;
+        }
+    }
+
+    .testimonials {
+        margin-top: 70vh;
+        padding-top: 5vh;
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        align-items: center;
+        grid-gap: 15px;
+        background-color: whitesmoke;
+        padding-bottom: 15px;
+        border-bottom: lightgrey solid 1px;
+        height: fit-content;
+
+        .header {
+            font-weight: 600;
+            color: $charcoal;
+            text-align: center;
+        }
+
+        .persons {
+            display: flex;
+            justify-content: center;
+            padding-top: 10px;
+
+            .person {
+                cursor: pointer;
+
+                i {
+                    font-size: 30px;
+                    margin: 0px 10px;
+                    color: $charcoal;
+                }
+
+                .description {
+                    display: none;
+                    background-color: white;
+                    color: $charcoal;
+                    padding: 10px;
+                    position: absolute;
+                    font-weight: normal;
+                    z-index: 1;
+                    border-radius: 8px;
+                    box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+                        0 8px 16px -8px rgba(0, 0, 0, 0.3);
+                    padding: 10px 30px;
+
+                    margin-top: 20px;
+                }
+
+                &:hover .description {
+                    display: block;
+                    max-width: 70%;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}

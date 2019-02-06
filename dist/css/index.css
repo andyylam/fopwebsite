@@ -48,9 +48,8 @@
     padding-top: 30vh;
     padding-left: 25px;
     display: grid;
-    grid-template-areas: "header1" "writeup1";
-    grid-gap: 10px; }
-    .main .description1#bg-img {
+    grid-template-rows: 1fr 1fr 1fr; }
+    .main .description1#b-img {
       background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/beachdayimg.jpg);
       background-attachment: fixed;
       background-size: cover;
@@ -63,13 +62,12 @@
       top: 0;
       left: 0; }
     .main .description1 .header1 {
-      grid-area: "header1";
       font-size: 40px;
       font-weight: 500;
       align-self: flex-end;
-      padding-bottom: 15px; }
+      padding-bottom: 15px;
+      max-width: 90%; }
     .main .description1 .writeup1 {
-      grid-area: "writeup1";
       font-size: 16px;
       font-weight: 400;
       line-height: 28px;
@@ -77,7 +75,6 @@
     .main .description1 .sign-up1 {
       display: inline-block;
       padding: 15px;
-      margin-top: 15px;
       margin-right: 5px;
       height: 40px;
       min-width: 80px;
@@ -94,7 +91,8 @@
       width: 100px;
       text-align: center;
       padding-bottom: 10px;
-      text-decoration: none; }
+      text-decoration: none;
+      align-self: flex-start; }
       .main .description1 .sign-up1:hover {
         background: #2e7a94;
         box-shadow: 0 4px 1px #2e7a94;
@@ -242,11 +240,12 @@ nav {
     color: #242325; }
   .description2 .foplogo {
     margin-right: 30px;
-    width: 200px;
-    height: 150px; }
+    width: 150px;
+    height: 120px; }
   .description2 .d2writeup {
     grid-column: span 2;
-    margin: 0px 20px;
+    margin: 15px 20px;
+    padding-bottom: 20px;
     color: #242325; }
 
 .cards {
@@ -272,8 +271,8 @@ nav {
     .cards .card img {
       grid-area: "img";
       grid-row: span 2;
-      height: 100px;
-      width: 100px;
+      height: 75px;
+      width: 75px;
       margin-right: 20px; }
     .cards .card .title {
       grid-area: "title";
@@ -307,6 +306,74 @@ footer {
     margin: auto;
     font-size: 10px;
     max-width: 70%; }
+
+.main .description1 {
+  padding-top: 25vh;
+  padding-left: 25px;
+  display: grid;
+  grid-template-rows: 1fr 0.3fr 1fr; }
+  .main .description1#bg-img {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/fscpictures/FSC_1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    right: 0;
+    top: 0;
+    left: 0; }
+  .main .description1 .fsc-header2 {
+    font-size: 20px;
+    font-weight: 500; }
+  .main .description1 .fsc-writeup1 {
+    font-size: 14px;
+    line-height: 1.15rem;
+    font-weight: 400;
+    max-width: 90%; }
+
+.main .testimonials {
+  margin-top: 70vh;
+  padding-top: 5vh;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  align-items: center;
+  grid-gap: 15px;
+  background-color: whitesmoke;
+  padding-bottom: 15px;
+  border-bottom: lightgrey solid 1px;
+  height: fit-content; }
+  .main .testimonials .header {
+    font-weight: 600;
+    color: #242325;
+    text-align: center; }
+  .main .testimonials .persons {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px; }
+    .main .testimonials .persons .person {
+      cursor: pointer; }
+      .main .testimonials .persons .person i {
+        font-size: 30px;
+        margin: 0px 10px;
+        color: #242325; }
+      .main .testimonials .persons .person .description {
+        display: none;
+        background-color: white;
+        color: #242325;
+        padding: 10px;
+        position: absolute;
+        font-weight: normal;
+        z-index: 1;
+        border-radius: 8px;
+        box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25), 0 8px 16px -8px rgba(0, 0, 0, 0.3);
+        padding: 10px 30px;
+        margin-top: 20px; }
+      .main .testimonials .persons .person:hover .description {
+        display: block;
+        max-width: 70%;
+        text-align: center; }
 
 * {
   font-family: "Camphor", "Open Sans", "Segoe UI", sans-serif;
