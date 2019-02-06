@@ -20,5 +20,8 @@ html,
 body {
     max-width: 100%;
     overflow-x: hidden;
-    background-color: $charcoal;
+    @include background;
+}
+
+.background {
 }

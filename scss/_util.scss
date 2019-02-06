@@ -7,3 +7,24 @@ $grey: #6b7c93;
 @mixin easeOut {
     transition: all 0.5s ease-out;
 }
+
+@mixin background {
+    &#bg-img {
+        background: url(../img/beachdayimg.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        z-index: -1;
+
+        &:after {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100%;
+            height: 120%;
+            background: rgba($charcoal, 0.5);
+            z-index: -1;
+        }
+    }
+}

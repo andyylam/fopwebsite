@@ -209,5 +209,21 @@ a {
 html,
 body {
   max-width: 100%;
-  overflow-x: hidden;
-  background-color: #242325; }
+  overflow-x: hidden; }
+  html#bg-img,
+  body#bg-img {
+    background: url(../img/beachdayimg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    z-index: -1; }
+    html#bg-img:after,
+    body#bg-img:after {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 100%;
+      height: 120%;
+      background: rgba(36, 35, 37, 0.5);
+      z-index: -1; }
