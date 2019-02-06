@@ -18,6 +18,12 @@
             href="./dist/img/favicon.ico"
         />
         <link rel="stylesheet" href="dist/css/index.css" />
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+            integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+            crossorigin="anonymous"
+        />
         <title>Et Invicta | NUS Computing FOP 2019</title>
     </head>
     <body>
@@ -26,24 +32,33 @@
             <div class="container">
                 <img src="./dist/img/fop_logo.png" alt="" class="main-logo" />
                 <div class="main-header">NUS Computing</div>
-                <nav>
-                    <div class="hamburger">
-                        <div class="patty"></div>
-                        <div class="patty"></div>
-                        <div class="patty"></div>
-                    </div>
-                    <div class="mobile-popup">
-                        <div class="projects">
-                            <div class="fsc">FSC</div>
-                            <div class="foc">FOC</div>
-                            <div class="fow">FOW</div>
-                            <div class="rag">RAG</div>
-                            <div class="bash">BASH</div>
-                        </div>
-                    </div>
-                </nav>
+                <div class="hamburger">
+                    <div class="patty"></div>
+                    <div class="patty"></div>
+                    <div class="patty"></div>
+                </div>
             </div>
         </header>
+
+        <nav class="mobile-popup">
+            <div class="projects">
+                <div class="popup-header">EVENTS</div>
+                <img src="#" alt="" class="projectlogo" />
+                <a href="#" class="project1">Freshmen Social Camp</a>
+                <img src="#" alt="" class="projectlogo" />
+                <a href="#" class="project2">Freshmen Orientation Camp</a>
+                <img src="#" alt="" class="projectlogo" />
+                <a href="#" class="project3">Freshmen Orientation Week</a>
+                <img src="#" alt="" class="projectlogo" />
+                <a href="#" class="project4">RAG</a>
+                <img src="#" alt="" class="projectlogo" />
+                <a href="#" class="project5">BASH: Geek On Fleek </a>
+                <a href="#" class="sign-up2"
+                    >SIGN UP &nbsp;
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </nav>
 
         <!-- main body -->
         <div class="main">
@@ -67,5 +82,7 @@
 
         <!-- footer -->
         <footer></footer>
+
+        <script src="dist/js/index.js"></script>
     </body>
 </html>

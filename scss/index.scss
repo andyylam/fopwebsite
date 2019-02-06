@@ -2,6 +2,7 @@
 @import "description1";
 @import "util";
 @import "header";
+@import "nav";
 
 * {
     font-family: "Camphor", "Open Sans", "Segoe UI", sans-serif;
@@ -15,6 +16,9 @@ a {
         background-color;
 }
 
+html,
 body {
+    max-width: 100%;
+    overflow-x: hidden;
     background-color: $black;
 }
