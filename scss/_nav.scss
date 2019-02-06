@@ -3,7 +3,6 @@
 nav {
     background: $white;
     border-radius: 4px;
-    visibility: hidden;
     overflow: hidden;
     position: absolute;
     left: 10px;
@@ -62,9 +61,43 @@ nav {
         height: 33px;
         width: 40px;
     }
-}
 
-.shown {
-    visibility: visible;
-    @include easeOut;
+    &.shown {
+        visibility: visible;
+        opacity: 0.95;
+        animation: faze 300ms ease-in-out forwards;
+        transform-origin: top right;
+
+        @keyframes faze {
+            from {
+                opacity: 0;
+                transform: scale(0.7);
+            }
+            to {
+                opacity: 0.95;
+                transform: scale(1);
+            }
+        }
+    }
+
+    &.notshown {
+        animation: faze2 300ms ease-in-out forwards;
+        position: absolute;
+        overflow: hidden;
+        height: 0;
+        transform-origin: top right;
+
+        @keyframes faze2 {
+            from {
+                opacity: 0.95;
+                transform: scale(1);
+                height: inherit;
+            }
+            to {
+                opacity: 0;
+                transform: scale(0.7);
+                height: 0;
+            }
+        }
+    }
 }
