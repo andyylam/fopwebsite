@@ -1,12 +1,24 @@
 @import "util";
 
 .main {
-    .description1 {
-        @include backgroundfsc;
-        padding-top: 25vh;
+    .fsc-description1 {
+        padding-top: 40vh;
         padding-left: 25px;
         display: grid;
         grid-template-rows: 1fr 0.3fr 1fr;
+        grid-gap: 10px;
+        align-items: flex-end;
+
+        div {
+            @include backgroundfsc;
+        }
+
+        .header1 {
+            font-size: 40px;
+            font-weight: 500;
+            align-self: flex-end;
+            max-width: 90%;
+        }
 
         .fsc-header2 {
             font-size: 20px;
@@ -20,60 +32,160 @@
             max-width: 90%;
         }
     }
+}
 
-    .testimonials {
-        margin-top: 70vh;
-        padding-top: 5vh;
-        grid-template-columns: 2fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        align-items: center;
-        grid-gap: 15px;
-        background-color: whitesmoke;
-        padding-bottom: 15px;
-        border-bottom: lightgrey solid 1px;
-        height: fit-content;
+.testimonials {
+    margin-top: 10vh;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    align-items: center;
+    background-color: whitesmoke;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    border-bottom: lightgrey solid 1px;
+    min-height: 48vh;
 
-        .header {
-            font-weight: 600;
-            color: $charcoal;
-            text-align: center;
+    .header {
+        font-weight: 600;
+        color: $charcoal;
+        text-align: center;
+    }
+
+    .persons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .person {
+            cursor: pointer;
+
+            i {
+                font-size: 30px;
+                margin: 10px 10px;
+                color: $charcoal;
+            }
+
+            .description {
+                visibility: hidden;
+                background-color: white;
+                color: $charcoal;
+                padding: 10px;
+                position: absolute;
+                font-weight: normal;
+                font-size: 15px;
+                border-radius: 8px;
+                box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+                    0 8px 16px -8px rgba(0, 0, 0, 0.3);
+                padding: 3px 5px;
+                left: 15%;
+                width: 80%;
+                top: 108vh;
+            }
+
+            &:hover .description {
+                display: inline-block;
+                visibility: visible;
+                text-align: center;
+            }
+        }
+    }
+}
+
+.gallery {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    padding: 20px 0;
+    grid-gap: 10px;
+    border-bottom: 1px solid lightgrey;
+
+    .post {
+        display: flex;
+        flex-direction: column;
+
+        img {
+            margin: auto;
+            width: 90%;
+            border-radius: 3px;
         }
 
-        .persons {
-            display: flex;
-            justify-content: center;
-            padding-top: 10px;
+        .caption {
+            margin: 0px auto;
+            font-size: 15px;
+            width: 90%;
+            opacity: 0.7;
+            color: $charcoal;
+        }
+    }
+}
 
-            .person {
-                cursor: pointer;
+.committee {
+    padding-top: 20px;
+    .header {
+        color: $charcoal;
+        font-weight: 500;
+        text-align: center;
+    }
+    .head {
+        padding-top: 20px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(75px, 1fr));
+        grid-gap: 20px;
+        justify-content: center;
+        margin: 0 30px;
 
-                i {
-                    font-size: 30px;
-                    margin: 0px 10px;
-                    color: $charcoal;
-                }
+        .roundthing {
+            text-align: center;
 
-                .description {
-                    display: none;
-                    background-color: white;
-                    color: $charcoal;
-                    padding: 10px;
-                    position: absolute;
-                    font-weight: normal;
-                    z-index: 1;
-                    border-radius: 8px;
-                    box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
-                        0 8px 16px -8px rgba(0, 0, 0, 0.3);
-                    padding: 10px 30px;
+            img {
+                border-radius: 50%;
+                min-width: 100px;
+                min-height: 100px;
+                max-height: 100%;
+                max-width: 100%;
+                border: 2px solid lightgrey;
+            }
+            .name {
+                color: $charcoal;
+                font-weight: 600;
+                font-size: 15px;
+            }
 
-                    margin-top: 20px;
-                }
+            .role {
+                color: $charcoal;
+                font-weight: 400;
+                font-size: 13px;
+            }
+        }
+    }
 
-                &:hover .description {
-                    display: block;
-                    max-width: 70%;
-                    text-align: center;
-                }
+    .grid {
+        padding: 20px 0;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(75px, 1fr));
+        grid-gap: 15px;
+        justify-content: center;
+        margin: 0 30px;
+
+        .roundthing {
+            text-align: center;
+
+            img {
+                border-radius: 50%;
+                width: 85px;
+                height: 85px;
+                object-fit: cover;
+                border: 1px solid lightgrey;
+            }
+            .name {
+                color: $charcoal;
+                font-weight: 600;
+                font-size: 13px;
+            }
+
+            .role {
+                color: $charcoal;
+                font-weight: 400;
+                font-size: 12px;
             }
         }
     }
