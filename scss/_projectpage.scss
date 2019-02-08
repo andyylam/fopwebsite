@@ -2,7 +2,8 @@
 
 .main {
     .fsc-description1 {
-        padding-top: 40vh;
+        padding-top: 30vh;
+        padding-bottom: 5vh;
         padding-left: 25px;
         display: grid;
         grid-template-rows: 1fr 0.3fr 1fr;
@@ -35,59 +36,58 @@
 }
 
 .testimonials {
-    margin-top: 10vh;
     display: grid;
-    grid-template-rows: auto 1fr;
-    align-items: center;
-    background-color: whitesmoke;
-    padding-top: 10px;
-    padding-bottom: 15px;
-    border-bottom: lightgrey solid 1px;
-    min-height: 48vh;
+    padding: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    background: whitesmoke;
 
-    .header {
-        font-weight: 600;
-        color: $charcoal;
-        text-align: center;
-    }
+    section {
+        grid-column: span 4;
+        display: none;
+        padding: 20px 0 0;
+        max-width: 90%;
+        justify-self: center;
 
-    .persons {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+        p {
+            color: $charcoal;
 
-        .person {
-            cursor: pointer;
-
-            i {
-                font-size: 30px;
-                margin: 10px 10px;
-                color: $charcoal;
-            }
-
-            .description {
-                visibility: hidden;
-                background-color: white;
-                color: $charcoal;
-                padding: 10px;
-                position: absolute;
-                font-weight: normal;
-                font-size: 15px;
-                border-radius: 8px;
-                box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
-                    0 8px 16px -8px rgba(0, 0, 0, 0.3);
-                padding: 3px 5px;
-                left: 15%;
-                width: 80%;
-                top: 108vh;
-            }
-
-            &:hover .description {
-                display: inline-block;
-                visibility: visible;
-                text-align: center;
+            strong {
+                color: $black;
+                padding-top: 10px;
+                display: block;
+                float: right;
             }
         }
+    }
+
+    input {
+        display: none;
+    }
+
+    input:checked + label {
+        border-bottom: 3px solid cornflowerblue;
+    }
+
+    label {
+        display: inline-block;
+        padding: 10px 0px;
+        font-weight: 600;
+        font-size: 14px;
+        text-align: center;
+        color: #abc;
+        border: 1px solid transparent;
+
+        :hover {
+            color: #789;
+            cursor: pointer;
+        }
+    }
+
+    #tab1:checked ~ #content1,
+    #tab2:checked ~ #content2,
+    #tab3:checked ~ #content3,
+    #tab4:checked ~ #content4 {
+        display: block;
     }
 }
 
@@ -120,6 +120,7 @@
 
 .committee {
     padding-top: 20px;
+
     .header {
         color: $charcoal;
         font-weight: 500;

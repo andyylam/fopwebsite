@@ -263,6 +263,7 @@ nav {
   grid-template-rows: 1fr 1fr;
   align-items: center;
   grid-gap: 10px;
+  padding-top: 20px;
   background-color: whitesmoke; }
   .description2 .d2header {
     font-weight: 600;
@@ -355,7 +356,8 @@ footer {
   /* start of medium tablet styles */ }
 
 .main .fsc-description1 {
-  padding-top: 40vh;
+  padding-top: 30vh;
+  padding-bottom: 5vh;
   padding-left: 25px;
   display: grid;
   grid-template-rows: 1fr 0.3fr 1fr;
@@ -389,47 +391,43 @@ footer {
     max-width: 90%; }
 
 .testimonials {
-  margin-top: 10vh;
   display: grid;
-  grid-template-rows: auto 1fr;
-  align-items: center;
-  background-color: whitesmoke;
-  padding-top: 10px;
-  padding-bottom: 15px;
-  border-bottom: lightgrey solid 1px;
-  min-height: 48vh; }
-  .testimonials .header {
+  padding: 20px;
+  grid-template-columns: repeat(4, 1fr);
+  background: whitesmoke; }
+  .testimonials section {
+    grid-column: span 4;
+    display: none;
+    padding: 20px 0 0;
+    max-width: 90%;
+    justify-self: center; }
+    .testimonials section p {
+      color: #242325; }
+      .testimonials section p strong {
+        color: #12100e;
+        padding-top: 10px;
+        display: block;
+        float: right; }
+  .testimonials input {
+    display: none; }
+  .testimonials input:checked + label {
+    border-bottom: 3px solid cornflowerblue; }
+  .testimonials label {
+    display: inline-block;
+    padding: 10px 0px;
     font-weight: 600;
-    color: #242325;
-    text-align: center; }
-  .testimonials .persons {
-    display: flex;
-    flex-direction: column;
-    justify-content: center; }
-    .testimonials .persons .person {
+    font-size: 14px;
+    text-align: center;
+    color: #abc;
+    border: 1px solid transparent; }
+    .testimonials label :hover {
+      color: #789;
       cursor: pointer; }
-      .testimonials .persons .person i {
-        font-size: 30px;
-        margin: 10px 10px;
-        color: #242325; }
-      .testimonials .persons .person .description {
-        visibility: hidden;
-        background-color: white;
-        color: #242325;
-        padding: 10px;
-        position: absolute;
-        font-weight: normal;
-        font-size: 15px;
-        border-radius: 8px;
-        box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25), 0 8px 16px -8px rgba(0, 0, 0, 0.3);
-        padding: 3px 5px;
-        left: 15%;
-        width: 80%;
-        top: 108vh; }
-      .testimonials .persons .person:hover .description {
-        display: inline-block;
-        visibility: visible;
-        text-align: center; }
+  .testimonials #tab1:checked ~ #content1,
+  .testimonials #tab2:checked ~ #content2,
+  .testimonials #tab3:checked ~ #content3,
+  .testimonials #tab4:checked ~ #content4 {
+    display: block; }
 
 .gallery {
   display: grid;
