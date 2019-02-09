@@ -441,7 +441,7 @@ footer {
 .testimonials {
   display: grid;
   padding: 20px;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(auto-fill, 1fr);
   background: whitesmoke; }
   .testimonials .header12 {
     color: #8e9fb1;
@@ -475,6 +475,8 @@ footer {
     text-align: center;
     color: #abc;
     border: 1px solid transparent; }
+    .testimonials label.bash {
+      grid-column: span 2; }
     .testimonials label :hover {
       color: #789;
       cursor: pointer; }

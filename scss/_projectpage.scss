@@ -38,7 +38,7 @@
 .testimonials {
     display: grid;
     padding: 20px;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(auto-fill, 1fr);
     background: whitesmoke;
 
     .header12 {
@@ -85,6 +85,10 @@
         text-align: center;
         color: #abc;
         border: 1px solid transparent;
+
+        &.bash {
+            grid-column: span 2;
+        }
 
         :hover {
             color: #789;

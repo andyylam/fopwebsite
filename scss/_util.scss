@@ -11,7 +11,7 @@ $grey: #6b7c93;
 @mixin background {
     &#b-img {
         background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-            url(../img/beachdayimg.jpg) no-repeat center center fixed;
+            url(../img/beachdayimg.jpg) no-repeat center center;
         background-size: cover;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -30,7 +30,7 @@ $grey: #6b7c93;
 @mixin backgroundfsc {
     &#bg-img {
         background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-            url(../img/fscpictures/FSC_1.jpg) no-repeat center center fixed;
+            url(../img/fscpictures/FSC_1.jpg) no-repeat center center;
         background-size: cover;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -47,7 +47,7 @@ $grey: #6b7c93;
 
     &#bg-img-foc {
         background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-            url(../img/focpictures/FOC5-min.jpg) no-repeat center center fixed;
+            url(../img/focpictures/FOC5-min.jpg) no-repeat center center;
         background-size: cover;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -64,7 +64,7 @@ $grey: #6b7c93;
 
     &#bg-img-fow {
         background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-            url(../img/fowpictures/Photo7.jpg) no-repeat center center fixed;
+            url(../img/fowpictures/Photo7.jpg) no-repeat center center;
         background-size: cover;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -81,7 +81,7 @@ $grey: #6b7c93;
 
     &#bg-img-bash {
         background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-            url(../img/bashpictures/) no-repeat center center fixed;
+            url(../img/bashpictures/) no-repeat center center;
         background-size: cover;
         -webkit-background-size: cover;
         -moz-background-size: cover;

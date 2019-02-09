@@ -86,6 +86,7 @@ nav {
         overflow: hidden;
         height: 0;
         transform-origin: top right;
+        z-index: -1;
 
         @keyframes faze2 {
             from {
