@@ -59,9 +59,9 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     position: absolute;
-    min-width: 100%;
     max-width: 100%;
-    height: 100%;
+    min-width: 100%;
+    min-height: 100%;
     z-index: -1;
     overflow: hidden;
     right: 0;
@@ -375,8 +375,8 @@ footer {
     -moz-background-size: cover;
     -o-background-size: cover;
     position: absolute;
-    min-width: 100%;
     max-width: 100%;
+    min-width: 100%;
     height: 100%;
     z-index: -1;
     overflow: hidden;
@@ -389,8 +389,8 @@ footer {
     -moz-background-size: cover;
     -o-background-size: cover;
     position: absolute;
-    min-width: 100%;
     max-width: 100%;
+    min-width: 100%;
     height: 100%;
     z-index: -1;
     overflow: hidden;
@@ -403,8 +403,8 @@ footer {
     -moz-background-size: cover;
     -o-background-size: cover;
     position: absolute;
-    min-width: 100%;
     max-width: 100%;
+    min-width: 100%;
     height: 100%;
     z-index: -1;
     overflow: hidden;
@@ -417,8 +417,8 @@ footer {
     -moz-background-size: cover;
     -o-background-size: cover;
     position: absolute;
-    min-width: 100%;
     max-width: 100%;
+    min-width: 100%;
     height: 100%;
     z-index: -1;
     overflow: hidden;
@@ -497,7 +497,8 @@ footer {
     .gallery .post img {
       margin: 0 auto;
       width: 90%;
-      border-radius: 3px; }
+      border-radius: 3px;
+      object-fit: cover; }
     .gallery .post .caption {
       margin: 0 auto;
       font-size: 13.5px;
@@ -525,10 +526,9 @@ footer {
       text-align: center; }
       .committee .head .roundthing img {
         border-radius: 50%;
-        min-width: 100px;
-        min-height: 100px;
-        max-height: 100%;
-        max-width: 100%;
+        object-fit: cover;
+        width: 16vh;
+        height: 16vh;
         border: 2px solid lightgrey; }
       .committee .head .roundthing .name {
         color: #242325;
