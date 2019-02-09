@@ -38,8 +38,13 @@
             font-weight: 500;
             align-self: flex-end;
 
+            .date {
+                color: $charcoal;
+                display: block;
+            }
             i {
                 color: $grey;
+                display: inline;
             }
         }
 

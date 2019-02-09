@@ -315,8 +315,12 @@ nav {
       color: #242325;
       font-weight: 500;
       align-self: flex-end; }
+      .cards .card .title .date {
+        color: #242325;
+        display: block; }
       .cards .card .title i {
-        color: #6b7c93; }
+        color: #6b7c93;
+        display: inline; }
     .cards .card .carddes {
       grid-area: "carddes";
       color: #242325; }
@@ -376,6 +380,19 @@ footer {
     overflow: hidden;
     right: 0;
     top: 0; }
+  .main .fsc-description1 div#bg-img-foc {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/focpictures/FOC5-min.jpg) no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+    right: 0;
+    top: 0; }
   .main .fsc-description1 .header1 {
     font-size: 40px;
     font-weight: 500;
@@ -395,10 +412,17 @@ footer {
   padding: 20px;
   grid-template-columns: repeat(4, 1fr);
   background: whitesmoke; }
+  .testimonials .header12 {
+    color: #8e9fb1;
+    display: block;
+    grid-column: span 4;
+    margin: auto;
+    font-weight: 600;
+    padding-bottom: 10px; }
   .testimonials section {
     grid-column: span 4;
     display: none;
-    padding: 20px 0 0;
+    padding: 0 0 15px 0;
     max-width: 90%;
     justify-self: center; }
     .testimonials section p {
@@ -414,7 +438,7 @@ footer {
     border-bottom: 3px solid cornflowerblue; }
   .testimonials label {
     display: inline-block;
-    padding: 10px 0px;
+    padding: 10px 10px;
     font-weight: 600;
     font-size: 14px;
     text-align: center;
@@ -430,24 +454,28 @@ footer {
     display: block; }
 
 .gallery {
+  background-color: whitesmoke;
   display: grid;
-  grid-template-rows: repeat(4, 1fr);
+  grid-template-rows: repeat(4, auto);
   padding: 20px 0;
-  grid-gap: 10px;
+  grid-gap: 30px;
   border-bottom: 1px solid lightgrey; }
   .gallery .post {
     display: flex;
     flex-direction: column; }
     .gallery .post img {
-      margin: auto;
+      margin: 0 auto;
       width: 90%;
       border-radius: 3px; }
     .gallery .post .caption {
-      margin: 0px auto;
-      font-size: 15px;
+      margin: 0 auto;
+      font-size: 13.5px;
+      padding: 10px;
       width: 90%;
       opacity: 0.7;
-      color: #242325; }
+      color: #242325;
+      box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25), 0 8px 16px -8px rgba(0, 0, 0, 0.3);
+      border-radius: 3px; }
 
 .committee {
   padding-top: 20px; }

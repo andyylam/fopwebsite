@@ -42,6 +42,22 @@ $grey: #6b7c93;
         right: 0;
         top: 0;
     }
+
+    &#bg-img-foc {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+            url(../img/focpictures/FOC5-min.jpg) no-repeat center center fixed;
+        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        overflow: hidden;
+        right: 0;
+        top: 0;
+    }
 }
 
 @media screen and (max-width: 991px) {
