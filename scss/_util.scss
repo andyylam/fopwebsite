@@ -81,7 +81,7 @@ $grey: #6b7c93;
 
     &#bg-img-bash {
         background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-            url(../img/bashpictures/) no-repeat center center;
+            url(../img/bashpictures/highlight2.JPG) no-repeat center center;
         background-size: cover;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -97,15 +97,45 @@ $grey: #6b7c93;
     }
 }
 
-@media screen and (max-width: 991px) {
-    /* start of large tablet styles */
-}
-
-@media screen and (max-width: 767px) {
-    /* start of medium tablet styles */
-}
-
-@media screen and (max-width: 479px) {
-    .img {
+/* SMARTPHONES LANDSCAPE */
+@media only screen and (min-width: 480px) {
+    html {
+        background-color: whitesmoke;
     }
+
+    .main {
+        .description1 {
+            padding-left: 15%;
+            padding-right: 15%;
+        }
+        .fsc-description1 {
+            padding-left: 15%;
+            padding-right: 15%;
+        }
+    }
+
+    .cards,
+    .description2,
+    .committee {
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+
+    .post {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .testimonials {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+/* TABLETS PORTRAIT */
+@media only screen and (min-width: 768px) {
+}
+
+/* TABLET LANDSCAPE / DESKTOP */
+@media only screen and (min-width: 1024px) {
 }

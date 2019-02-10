@@ -37,9 +37,10 @@
 
 .testimonials {
     display: grid;
-    padding: 20px;
+    padding: 15px;
     grid-template-columns: repeat(auto-fill, 1fr);
     background: whitesmoke;
+    border-bottom: 1px lightgrey solid;
 
     .header12 {
         color: rgb(142, 159, 177);
@@ -54,12 +55,12 @@
         grid-column: span 12;
         display: none;
         padding: 0 0 15px 0;
-        max-width: 90%;
+        width: 100%;
         justify-self: center;
 
         &.timeline {
             justify-self: flex-start;
-            width: 90%;
+            width: 100%;
         }
 
         p {
@@ -67,14 +68,13 @@
 
             strong {
                 color: $black;
-                padding-top: 10px;
+                padding-top: 20px;
                 display: block;
                 float: right;
             }
         }
 
         ul {
-            margin-left: 5vh;
             list-style: none;
             background-color: white;
             padding: 15px 20px;
