@@ -55,8 +55,8 @@
   .cards,
   .description2,
   .committee {
-    padding-left: 15%;
-    padding-right: 15%; }
+    padding-left: 12.5%;
+    padding-right: 12.5%; }
   .post {
     padding-left: 10%;
     padding-right: 10%; }
@@ -65,7 +65,164 @@
     margin-right: 10%; } }
 
 /* TABLETS PORTRAIT */
+@media only screen and (min-width: 768px) {
+  header .container {
+    min-height: 80px; }
+    header .container .hamburger {
+      display: none; }
+    header .container .projects-nav {
+      display: flex; }
+    header .container img.main-logo {
+      align-content: flex-end;
+      height: 70px;
+      width: 280px; }
+  .description2,
+  .committee {
+    padding-left: 20%;
+    padding-right: 20%; }
+  .gallery div.fsc-writeup1 {
+    text-align: center;
+    max-width: 80%;
+    font-size: 18px; }
+  .gallery .post {
+    padding-left: 15%;
+    padding-right: 15%; }
+    .gallery .post img.picture {
+      border-radius: 5px; }
+    .gallery .post div.caption {
+      font-size: 17px; }
+  .testimonials {
+    margin-left: 20%;
+    margin-right: 20%; }
+  .main .description1 {
+    padding-top: 50vh; }
+    .main .description1 .imgbg-img {
+      height: 60%; }
+  .main .fsc-description1 div.header1 {
+    font-size: 50px; }
+  .main .fsc-description1 div.fsc-header2 {
+    font-size: 30px; }
+  .main .cards {
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr auto; }
+    .main .cards .card {
+      display: grid;
+      grid-gap: 10px;
+      grid-template-areas: "img" "title" "carddes"; }
+      .main .cards .card img {
+        height: 80px;
+        width: 80px;
+        justify-self: center; }
+      .main .cards .card.camp {
+        grid-column: span 2; }
+      .main .cards .card.event {
+        grid-column: span 3; }
+  .committee .roundthing img {
+    height: 20vh;
+    width: 20vh; } }
+
 /* TABLET LANDSCAPE / DESKTOP */
+@media only screen and (min-width: 1024px) {
+  header .container .hamburger {
+    display: none; }
+  header .container .projects-nav {
+    display: flex; }
+  .gallery .post {
+    padding-left: 25%;
+    padding-right: 25%; }
+    .gallery .post div.caption {
+      font-size: 20px; }
+  .gallery div.fsc-writeup1 {
+    font-size: 28px;
+    line-height: 2rem;
+    max-width: 70%; }
+  .main .description1 .header1 {
+    font-size: 50px;
+    margin-bottom: 10px; }
+  .main .description1 .writeup1 {
+    font-size: 25px; }
+  .main div.fsc-description1 {
+    height: 70vh;
+    padding-left: 20vh; }
+    .main div.fsc-description1 div.header1 {
+      font-size: 50px; }
+    .main div.fsc-description1 div.fsc-header2 {
+      font-size: 40px; }
+  .main .description2 {
+    grid-gap: 0; }
+    .main .description2 img {
+      height: 200px;
+      width: 300px; }
+    .main .description2 .d2header {
+      font-size: 25px; }
+    .main .description2 .d2writeup {
+      font-size: 19px; }
+  .main .cards {
+    margin-top: 2%;
+    grid-template-columns: repeat(5, 1fr); }
+    .main .cards .card {
+      display: grid;
+      grid-gap: 10px;
+      grid-template-areas: "img" "title" "carddes";
+      padding: 30px 30px; }
+      .main .cards .card .title {
+        font-size: 18px;
+        font-weight: 500; }
+      .main .cards .card .carddes {
+        font-size: 16px; }
+      .main .cards .card img {
+        height: 80px;
+        width: 80px;
+        justify-self: center; }
+      .main .cards .card.camp {
+        grid-column: span 1; }
+      .main .cards .card.event {
+        grid-column: span 1; }
+  .committee .header {
+    font-size: 20px; }
+  .committee .head {
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); }
+    .committee .head .roundthing {
+      justify-self: center;
+      width: min-content; }
+      .committee .head .roundthing img {
+        min-width: 180px;
+        min-height: 180px; }
+      .committee .head .roundthing div.name {
+        font-size: 17px; }
+      .committee .head .roundthing div.role {
+        font-size: 17px; }
+  .committee div.grid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); }
+    .committee div.grid .roundthing img {
+      min-width: 140px;
+      min-height: 140px; }
+    .committee div.grid .roundthing .name {
+      font-size: 15px; }
+    .committee div.grid .roundthing .role {
+      font-size: 15px; }
+  div.testimonials .header12 {
+    font-size: 20px; }
+  div.testimonials p {
+    font-size: 18px;
+    max-width: 80%;
+    margin: 3% auto; }
+  div.testimonials label {
+    font-size: 19px; }
+  div.testimonials section ul {
+    margin: 3% auto; }
+    div.testimonials section ul li div.date {
+      font-size: 20px;
+      display: inline-block; }
+    div.testimonials section ul li div.eventname {
+      font-size: 18px;
+      display: inline-block;
+      padding-left: 20px; }
+  footer {
+    padding-bottom: 5%; }
+    footer .credits {
+      font-size: 16px; } }
+
 .main .description1 {
   padding: 50px 0px 50px 20px;
   display: flex;
@@ -143,8 +300,8 @@
   .cards,
   .description2,
   .committee {
-    padding-left: 15%;
-    padding-right: 15%; }
+    padding-left: 12.5%;
+    padding-right: 12.5%; }
   .post {
     padding-left: 10%;
     padding-right: 10%; }
@@ -153,7 +310,164 @@
     margin-right: 10%; } }
 
 /* TABLETS PORTRAIT */
+@media only screen and (min-width: 768px) {
+  header .container {
+    min-height: 80px; }
+    header .container .hamburger {
+      display: none; }
+    header .container .projects-nav {
+      display: flex; }
+    header .container img.main-logo {
+      align-content: flex-end;
+      height: 70px;
+      width: 280px; }
+  .description2,
+  .committee {
+    padding-left: 20%;
+    padding-right: 20%; }
+  .gallery div.fsc-writeup1 {
+    text-align: center;
+    max-width: 80%;
+    font-size: 18px; }
+  .gallery .post {
+    padding-left: 15%;
+    padding-right: 15%; }
+    .gallery .post img.picture {
+      border-radius: 5px; }
+    .gallery .post div.caption {
+      font-size: 17px; }
+  .testimonials {
+    margin-left: 20%;
+    margin-right: 20%; }
+  .main .description1 {
+    padding-top: 50vh; }
+    .main .description1 .imgbg-img {
+      height: 60%; }
+  .main .fsc-description1 div.header1 {
+    font-size: 50px; }
+  .main .fsc-description1 div.fsc-header2 {
+    font-size: 30px; }
+  .main .cards {
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr auto; }
+    .main .cards .card {
+      display: grid;
+      grid-gap: 10px;
+      grid-template-areas: "img" "title" "carddes"; }
+      .main .cards .card img {
+        height: 80px;
+        width: 80px;
+        justify-self: center; }
+      .main .cards .card.camp {
+        grid-column: span 2; }
+      .main .cards .card.event {
+        grid-column: span 3; }
+  .committee .roundthing img {
+    height: 20vh;
+    width: 20vh; } }
+
 /* TABLET LANDSCAPE / DESKTOP */
+@media only screen and (min-width: 1024px) {
+  header .container .hamburger {
+    display: none; }
+  header .container .projects-nav {
+    display: flex; }
+  .gallery .post {
+    padding-left: 25%;
+    padding-right: 25%; }
+    .gallery .post div.caption {
+      font-size: 20px; }
+  .gallery div.fsc-writeup1 {
+    font-size: 28px;
+    line-height: 2rem;
+    max-width: 70%; }
+  .main .description1 .header1 {
+    font-size: 50px;
+    margin-bottom: 10px; }
+  .main .description1 .writeup1 {
+    font-size: 25px; }
+  .main div.fsc-description1 {
+    height: 70vh;
+    padding-left: 20vh; }
+    .main div.fsc-description1 div.header1 {
+      font-size: 50px; }
+    .main div.fsc-description1 div.fsc-header2 {
+      font-size: 40px; }
+  .main .description2 {
+    grid-gap: 0; }
+    .main .description2 img {
+      height: 200px;
+      width: 300px; }
+    .main .description2 .d2header {
+      font-size: 25px; }
+    .main .description2 .d2writeup {
+      font-size: 19px; }
+  .main .cards {
+    margin-top: 2%;
+    grid-template-columns: repeat(5, 1fr); }
+    .main .cards .card {
+      display: grid;
+      grid-gap: 10px;
+      grid-template-areas: "img" "title" "carddes";
+      padding: 30px 30px; }
+      .main .cards .card .title {
+        font-size: 18px;
+        font-weight: 500; }
+      .main .cards .card .carddes {
+        font-size: 16px; }
+      .main .cards .card img {
+        height: 80px;
+        width: 80px;
+        justify-self: center; }
+      .main .cards .card.camp {
+        grid-column: span 1; }
+      .main .cards .card.event {
+        grid-column: span 1; }
+  .committee .header {
+    font-size: 20px; }
+  .committee .head {
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); }
+    .committee .head .roundthing {
+      justify-self: center;
+      width: min-content; }
+      .committee .head .roundthing img {
+        min-width: 180px;
+        min-height: 180px; }
+      .committee .head .roundthing div.name {
+        font-size: 17px; }
+      .committee .head .roundthing div.role {
+        font-size: 17px; }
+  .committee div.grid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); }
+    .committee div.grid .roundthing img {
+      min-width: 140px;
+      min-height: 140px; }
+    .committee div.grid .roundthing .name {
+      font-size: 15px; }
+    .committee div.grid .roundthing .role {
+      font-size: 15px; }
+  div.testimonials .header12 {
+    font-size: 20px; }
+  div.testimonials p {
+    font-size: 18px;
+    max-width: 80%;
+    margin: 3% auto; }
+  div.testimonials label {
+    font-size: 19px; }
+  div.testimonials section ul {
+    margin: 3% auto; }
+    div.testimonials section ul li div.date {
+      font-size: 20px;
+      display: inline-block; }
+    div.testimonials section ul li div.eventname {
+      font-size: 18px;
+      display: inline-block;
+      padding-left: 20px; }
+  footer {
+    padding-bottom: 5%; }
+    footer .credits {
+      font-size: 16px; } }
+
 /* SMARTPHONES LANDSCAPE */
 @media only screen and (min-width: 480px) {
   html {
@@ -167,8 +481,8 @@
   .cards,
   .description2,
   .committee {
-    padding-left: 15%;
-    padding-right: 15%; }
+    padding-left: 12.5%;
+    padding-right: 12.5%; }
   .post {
     padding-left: 10%;
     padding-right: 10%; }
@@ -177,7 +491,164 @@
     margin-right: 10%; } }
 
 /* TABLETS PORTRAIT */
+@media only screen and (min-width: 768px) {
+  header .container {
+    min-height: 80px; }
+    header .container .hamburger {
+      display: none; }
+    header .container .projects-nav {
+      display: flex; }
+    header .container img.main-logo {
+      align-content: flex-end;
+      height: 70px;
+      width: 280px; }
+  .description2,
+  .committee {
+    padding-left: 20%;
+    padding-right: 20%; }
+  .gallery div.fsc-writeup1 {
+    text-align: center;
+    max-width: 80%;
+    font-size: 18px; }
+  .gallery .post {
+    padding-left: 15%;
+    padding-right: 15%; }
+    .gallery .post img.picture {
+      border-radius: 5px; }
+    .gallery .post div.caption {
+      font-size: 17px; }
+  .testimonials {
+    margin-left: 20%;
+    margin-right: 20%; }
+  .main .description1 {
+    padding-top: 50vh; }
+    .main .description1 .imgbg-img {
+      height: 60%; }
+  .main .fsc-description1 div.header1 {
+    font-size: 50px; }
+  .main .fsc-description1 div.fsc-header2 {
+    font-size: 30px; }
+  .main .cards {
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr auto; }
+    .main .cards .card {
+      display: grid;
+      grid-gap: 10px;
+      grid-template-areas: "img" "title" "carddes"; }
+      .main .cards .card img {
+        height: 80px;
+        width: 80px;
+        justify-self: center; }
+      .main .cards .card.camp {
+        grid-column: span 2; }
+      .main .cards .card.event {
+        grid-column: span 3; }
+  .committee .roundthing img {
+    height: 20vh;
+    width: 20vh; } }
+
 /* TABLET LANDSCAPE / DESKTOP */
+@media only screen and (min-width: 1024px) {
+  header .container .hamburger {
+    display: none; }
+  header .container .projects-nav {
+    display: flex; }
+  .gallery .post {
+    padding-left: 25%;
+    padding-right: 25%; }
+    .gallery .post div.caption {
+      font-size: 20px; }
+  .gallery div.fsc-writeup1 {
+    font-size: 28px;
+    line-height: 2rem;
+    max-width: 70%; }
+  .main .description1 .header1 {
+    font-size: 50px;
+    margin-bottom: 10px; }
+  .main .description1 .writeup1 {
+    font-size: 25px; }
+  .main div.fsc-description1 {
+    height: 70vh;
+    padding-left: 20vh; }
+    .main div.fsc-description1 div.header1 {
+      font-size: 50px; }
+    .main div.fsc-description1 div.fsc-header2 {
+      font-size: 40px; }
+  .main .description2 {
+    grid-gap: 0; }
+    .main .description2 img {
+      height: 200px;
+      width: 300px; }
+    .main .description2 .d2header {
+      font-size: 25px; }
+    .main .description2 .d2writeup {
+      font-size: 19px; }
+  .main .cards {
+    margin-top: 2%;
+    grid-template-columns: repeat(5, 1fr); }
+    .main .cards .card {
+      display: grid;
+      grid-gap: 10px;
+      grid-template-areas: "img" "title" "carddes";
+      padding: 30px 30px; }
+      .main .cards .card .title {
+        font-size: 18px;
+        font-weight: 500; }
+      .main .cards .card .carddes {
+        font-size: 16px; }
+      .main .cards .card img {
+        height: 80px;
+        width: 80px;
+        justify-self: center; }
+      .main .cards .card.camp {
+        grid-column: span 1; }
+      .main .cards .card.event {
+        grid-column: span 1; }
+  .committee .header {
+    font-size: 20px; }
+  .committee .head {
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); }
+    .committee .head .roundthing {
+      justify-self: center;
+      width: min-content; }
+      .committee .head .roundthing img {
+        min-width: 180px;
+        min-height: 180px; }
+      .committee .head .roundthing div.name {
+        font-size: 17px; }
+      .committee .head .roundthing div.role {
+        font-size: 17px; }
+  .committee div.grid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); }
+    .committee div.grid .roundthing img {
+      min-width: 140px;
+      min-height: 140px; }
+    .committee div.grid .roundthing .name {
+      font-size: 15px; }
+    .committee div.grid .roundthing .role {
+      font-size: 15px; }
+  div.testimonials .header12 {
+    font-size: 20px; }
+  div.testimonials p {
+    font-size: 18px;
+    max-width: 80%;
+    margin: 3% auto; }
+  div.testimonials label {
+    font-size: 19px; }
+  div.testimonials section ul {
+    margin: 3% auto; }
+    div.testimonials section ul li div.date {
+      font-size: 20px;
+      display: inline-block; }
+    div.testimonials section ul li div.eventname {
+      font-size: 18px;
+      display: inline-block;
+      padding-left: 20px; }
+  footer {
+    padding-bottom: 5%; }
+    footer .credits {
+      font-size: 16px; } }
+
 header {
   width: 100%;
   padding-top: 5px;
@@ -224,6 +695,16 @@ header {
         header .container .hamburger.close .patty:nth-child(3) {
           transform: rotate(-45deg) translate(7px, -6px);
           background-color: darkgrey; }
+    header .container .projects-nav {
+      display: none;
+      position: absolute;
+      right: 5vh; }
+      header .container .projects-nav a {
+        text-decoration: none;
+        font-size: 20px;
+        padding: 0 20px;
+        align-self: center;
+        font-weight: 550; }
 
 /* SMARTPHONES LANDSCAPE */
 @media only screen and (min-width: 480px) {
@@ -238,8 +719,8 @@ header {
   .cards,
   .description2,
   .committee {
-    padding-left: 15%;
-    padding-right: 15%; }
+    padding-left: 12.5%;
+    padding-right: 12.5%; }
   .post {
     padding-left: 10%;
     padding-right: 10%; }
@@ -248,7 +729,164 @@ header {
     margin-right: 10%; } }
 
 /* TABLETS PORTRAIT */
+@media only screen and (min-width: 768px) {
+  header .container {
+    min-height: 80px; }
+    header .container .hamburger {
+      display: none; }
+    header .container .projects-nav {
+      display: flex; }
+    header .container img.main-logo {
+      align-content: flex-end;
+      height: 70px;
+      width: 280px; }
+  .description2,
+  .committee {
+    padding-left: 20%;
+    padding-right: 20%; }
+  .gallery div.fsc-writeup1 {
+    text-align: center;
+    max-width: 80%;
+    font-size: 18px; }
+  .gallery .post {
+    padding-left: 15%;
+    padding-right: 15%; }
+    .gallery .post img.picture {
+      border-radius: 5px; }
+    .gallery .post div.caption {
+      font-size: 17px; }
+  .testimonials {
+    margin-left: 20%;
+    margin-right: 20%; }
+  .main .description1 {
+    padding-top: 50vh; }
+    .main .description1 .imgbg-img {
+      height: 60%; }
+  .main .fsc-description1 div.header1 {
+    font-size: 50px; }
+  .main .fsc-description1 div.fsc-header2 {
+    font-size: 30px; }
+  .main .cards {
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr auto; }
+    .main .cards .card {
+      display: grid;
+      grid-gap: 10px;
+      grid-template-areas: "img" "title" "carddes"; }
+      .main .cards .card img {
+        height: 80px;
+        width: 80px;
+        justify-self: center; }
+      .main .cards .card.camp {
+        grid-column: span 2; }
+      .main .cards .card.event {
+        grid-column: span 3; }
+  .committee .roundthing img {
+    height: 20vh;
+    width: 20vh; } }
+
 /* TABLET LANDSCAPE / DESKTOP */
+@media only screen and (min-width: 1024px) {
+  header .container .hamburger {
+    display: none; }
+  header .container .projects-nav {
+    display: flex; }
+  .gallery .post {
+    padding-left: 25%;
+    padding-right: 25%; }
+    .gallery .post div.caption {
+      font-size: 20px; }
+  .gallery div.fsc-writeup1 {
+    font-size: 28px;
+    line-height: 2rem;
+    max-width: 70%; }
+  .main .description1 .header1 {
+    font-size: 50px;
+    margin-bottom: 10px; }
+  .main .description1 .writeup1 {
+    font-size: 25px; }
+  .main div.fsc-description1 {
+    height: 70vh;
+    padding-left: 20vh; }
+    .main div.fsc-description1 div.header1 {
+      font-size: 50px; }
+    .main div.fsc-description1 div.fsc-header2 {
+      font-size: 40px; }
+  .main .description2 {
+    grid-gap: 0; }
+    .main .description2 img {
+      height: 200px;
+      width: 300px; }
+    .main .description2 .d2header {
+      font-size: 25px; }
+    .main .description2 .d2writeup {
+      font-size: 19px; }
+  .main .cards {
+    margin-top: 2%;
+    grid-template-columns: repeat(5, 1fr); }
+    .main .cards .card {
+      display: grid;
+      grid-gap: 10px;
+      grid-template-areas: "img" "title" "carddes";
+      padding: 30px 30px; }
+      .main .cards .card .title {
+        font-size: 18px;
+        font-weight: 500; }
+      .main .cards .card .carddes {
+        font-size: 16px; }
+      .main .cards .card img {
+        height: 80px;
+        width: 80px;
+        justify-self: center; }
+      .main .cards .card.camp {
+        grid-column: span 1; }
+      .main .cards .card.event {
+        grid-column: span 1; }
+  .committee .header {
+    font-size: 20px; }
+  .committee .head {
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); }
+    .committee .head .roundthing {
+      justify-self: center;
+      width: min-content; }
+      .committee .head .roundthing img {
+        min-width: 180px;
+        min-height: 180px; }
+      .committee .head .roundthing div.name {
+        font-size: 17px; }
+      .committee .head .roundthing div.role {
+        font-size: 17px; }
+  .committee div.grid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); }
+    .committee div.grid .roundthing img {
+      min-width: 140px;
+      min-height: 140px; }
+    .committee div.grid .roundthing .name {
+      font-size: 15px; }
+    .committee div.grid .roundthing .role {
+      font-size: 15px; }
+  div.testimonials .header12 {
+    font-size: 20px; }
+  div.testimonials p {
+    font-size: 18px;
+    max-width: 80%;
+    margin: 3% auto; }
+  div.testimonials label {
+    font-size: 19px; }
+  div.testimonials section ul {
+    margin: 3% auto; }
+    div.testimonials section ul li div.date {
+      font-size: 20px;
+      display: inline-block; }
+    div.testimonials section ul li div.eventname {
+      font-size: 18px;
+      display: inline-block;
+      padding-left: 20px; }
+  footer {
+    padding-bottom: 5%; }
+    footer .credits {
+      font-size: 16px; } }
+
 nav {
   background: #f6f9fc;
   border-radius: 4px;
@@ -262,6 +900,16 @@ nav {
   font-size: 17px;
   line-height: 40px;
   box-shadow: 0 50px 100px -20px rgba(50, 50, 93, 0.25), 0 30px 60px -30px rgba(207, 105, 105, 0.3); }
+
+@keyframes faze2 {
+  from {
+    opacity: 0.95;
+    transform: scale(1);
+    height: inherit; }
+  to {
+    opacity: 0;
+    transform: scale(0.7);
+    height: 0; } }
   nav .projects {
     display: grid;
     grid-gap: 7px;
@@ -315,16 +963,6 @@ nav {
     transform-origin: top right;
     z-index: -1; }
 
-@keyframes faze2 {
-  from {
-    opacity: 0.95;
-    transform: scale(1);
-    height: inherit; }
-  to {
-    opacity: 0;
-    transform: scale(0.7);
-    height: 0; } }
-
 /* SMARTPHONES LANDSCAPE */
 @media only screen and (min-width: 480px) {
   html {
@@ -338,8 +976,8 @@ nav {
   .cards,
   .description2,
   .committee {
-    padding-left: 15%;
-    padding-right: 15%; }
+    padding-left: 12.5%;
+    padding-right: 12.5%; }
   .post {
     padding-left: 10%;
     padding-right: 10%; }
@@ -348,7 +986,164 @@ nav {
     margin-right: 10%; } }
 
 /* TABLETS PORTRAIT */
+@media only screen and (min-width: 768px) {
+  header .container {
+    min-height: 80px; }
+    header .container .hamburger {
+      display: none; }
+    header .container .projects-nav {
+      display: flex; }
+    header .container img.main-logo {
+      align-content: flex-end;
+      height: 70px;
+      width: 280px; }
+  .description2,
+  .committee {
+    padding-left: 20%;
+    padding-right: 20%; }
+  .gallery div.fsc-writeup1 {
+    text-align: center;
+    max-width: 80%;
+    font-size: 18px; }
+  .gallery .post {
+    padding-left: 15%;
+    padding-right: 15%; }
+    .gallery .post img.picture {
+      border-radius: 5px; }
+    .gallery .post div.caption {
+      font-size: 17px; }
+  .testimonials {
+    margin-left: 20%;
+    margin-right: 20%; }
+  .main .description1 {
+    padding-top: 50vh; }
+    .main .description1 .imgbg-img {
+      height: 60%; }
+  .main .fsc-description1 div.header1 {
+    font-size: 50px; }
+  .main .fsc-description1 div.fsc-header2 {
+    font-size: 30px; }
+  .main .cards {
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr auto; }
+    .main .cards .card {
+      display: grid;
+      grid-gap: 10px;
+      grid-template-areas: "img" "title" "carddes"; }
+      .main .cards .card img {
+        height: 80px;
+        width: 80px;
+        justify-self: center; }
+      .main .cards .card.camp {
+        grid-column: span 2; }
+      .main .cards .card.event {
+        grid-column: span 3; }
+  .committee .roundthing img {
+    height: 20vh;
+    width: 20vh; } }
+
 /* TABLET LANDSCAPE / DESKTOP */
+@media only screen and (min-width: 1024px) {
+  header .container .hamburger {
+    display: none; }
+  header .container .projects-nav {
+    display: flex; }
+  .gallery .post {
+    padding-left: 25%;
+    padding-right: 25%; }
+    .gallery .post div.caption {
+      font-size: 20px; }
+  .gallery div.fsc-writeup1 {
+    font-size: 28px;
+    line-height: 2rem;
+    max-width: 70%; }
+  .main .description1 .header1 {
+    font-size: 50px;
+    margin-bottom: 10px; }
+  .main .description1 .writeup1 {
+    font-size: 25px; }
+  .main div.fsc-description1 {
+    height: 70vh;
+    padding-left: 20vh; }
+    .main div.fsc-description1 div.header1 {
+      font-size: 50px; }
+    .main div.fsc-description1 div.fsc-header2 {
+      font-size: 40px; }
+  .main .description2 {
+    grid-gap: 0; }
+    .main .description2 img {
+      height: 200px;
+      width: 300px; }
+    .main .description2 .d2header {
+      font-size: 25px; }
+    .main .description2 .d2writeup {
+      font-size: 19px; }
+  .main .cards {
+    margin-top: 2%;
+    grid-template-columns: repeat(5, 1fr); }
+    .main .cards .card {
+      display: grid;
+      grid-gap: 10px;
+      grid-template-areas: "img" "title" "carddes";
+      padding: 30px 30px; }
+      .main .cards .card .title {
+        font-size: 18px;
+        font-weight: 500; }
+      .main .cards .card .carddes {
+        font-size: 16px; }
+      .main .cards .card img {
+        height: 80px;
+        width: 80px;
+        justify-self: center; }
+      .main .cards .card.camp {
+        grid-column: span 1; }
+      .main .cards .card.event {
+        grid-column: span 1; }
+  .committee .header {
+    font-size: 20px; }
+  .committee .head {
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); }
+    .committee .head .roundthing {
+      justify-self: center;
+      width: min-content; }
+      .committee .head .roundthing img {
+        min-width: 180px;
+        min-height: 180px; }
+      .committee .head .roundthing div.name {
+        font-size: 17px; }
+      .committee .head .roundthing div.role {
+        font-size: 17px; }
+  .committee div.grid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); }
+    .committee div.grid .roundthing img {
+      min-width: 140px;
+      min-height: 140px; }
+    .committee div.grid .roundthing .name {
+      font-size: 15px; }
+    .committee div.grid .roundthing .role {
+      font-size: 15px; }
+  div.testimonials .header12 {
+    font-size: 20px; }
+  div.testimonials p {
+    font-size: 18px;
+    max-width: 80%;
+    margin: 3% auto; }
+  div.testimonials label {
+    font-size: 19px; }
+  div.testimonials section ul {
+    margin: 3% auto; }
+    div.testimonials section ul li div.date {
+      font-size: 20px;
+      display: inline-block; }
+    div.testimonials section ul li div.eventname {
+      font-size: 18px;
+      display: inline-block;
+      padding-left: 20px; }
+  footer {
+    padding-bottom: 5%; }
+    footer .credits {
+      font-size: 16px; } }
+
 .description2 {
   display: grid;
   grid-template-columns: 2fr 1fr;
@@ -383,8 +1178,8 @@ nav {
   .cards,
   .description2,
   .committee {
-    padding-left: 15%;
-    padding-right: 15%; }
+    padding-left: 12.5%;
+    padding-right: 12.5%; }
   .post {
     padding-left: 10%;
     padding-right: 10%; }
@@ -393,7 +1188,164 @@ nav {
     margin-right: 10%; } }
 
 /* TABLETS PORTRAIT */
+@media only screen and (min-width: 768px) {
+  header .container {
+    min-height: 80px; }
+    header .container .hamburger {
+      display: none; }
+    header .container .projects-nav {
+      display: flex; }
+    header .container img.main-logo {
+      align-content: flex-end;
+      height: 70px;
+      width: 280px; }
+  .description2,
+  .committee {
+    padding-left: 20%;
+    padding-right: 20%; }
+  .gallery div.fsc-writeup1 {
+    text-align: center;
+    max-width: 80%;
+    font-size: 18px; }
+  .gallery .post {
+    padding-left: 15%;
+    padding-right: 15%; }
+    .gallery .post img.picture {
+      border-radius: 5px; }
+    .gallery .post div.caption {
+      font-size: 17px; }
+  .testimonials {
+    margin-left: 20%;
+    margin-right: 20%; }
+  .main .description1 {
+    padding-top: 50vh; }
+    .main .description1 .imgbg-img {
+      height: 60%; }
+  .main .fsc-description1 div.header1 {
+    font-size: 50px; }
+  .main .fsc-description1 div.fsc-header2 {
+    font-size: 30px; }
+  .main .cards {
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr auto; }
+    .main .cards .card {
+      display: grid;
+      grid-gap: 10px;
+      grid-template-areas: "img" "title" "carddes"; }
+      .main .cards .card img {
+        height: 80px;
+        width: 80px;
+        justify-self: center; }
+      .main .cards .card.camp {
+        grid-column: span 2; }
+      .main .cards .card.event {
+        grid-column: span 3; }
+  .committee .roundthing img {
+    height: 20vh;
+    width: 20vh; } }
+
 /* TABLET LANDSCAPE / DESKTOP */
+@media only screen and (min-width: 1024px) {
+  header .container .hamburger {
+    display: none; }
+  header .container .projects-nav {
+    display: flex; }
+  .gallery .post {
+    padding-left: 25%;
+    padding-right: 25%; }
+    .gallery .post div.caption {
+      font-size: 20px; }
+  .gallery div.fsc-writeup1 {
+    font-size: 28px;
+    line-height: 2rem;
+    max-width: 70%; }
+  .main .description1 .header1 {
+    font-size: 50px;
+    margin-bottom: 10px; }
+  .main .description1 .writeup1 {
+    font-size: 25px; }
+  .main div.fsc-description1 {
+    height: 70vh;
+    padding-left: 20vh; }
+    .main div.fsc-description1 div.header1 {
+      font-size: 50px; }
+    .main div.fsc-description1 div.fsc-header2 {
+      font-size: 40px; }
+  .main .description2 {
+    grid-gap: 0; }
+    .main .description2 img {
+      height: 200px;
+      width: 300px; }
+    .main .description2 .d2header {
+      font-size: 25px; }
+    .main .description2 .d2writeup {
+      font-size: 19px; }
+  .main .cards {
+    margin-top: 2%;
+    grid-template-columns: repeat(5, 1fr); }
+    .main .cards .card {
+      display: grid;
+      grid-gap: 10px;
+      grid-template-areas: "img" "title" "carddes";
+      padding: 30px 30px; }
+      .main .cards .card .title {
+        font-size: 18px;
+        font-weight: 500; }
+      .main .cards .card .carddes {
+        font-size: 16px; }
+      .main .cards .card img {
+        height: 80px;
+        width: 80px;
+        justify-self: center; }
+      .main .cards .card.camp {
+        grid-column: span 1; }
+      .main .cards .card.event {
+        grid-column: span 1; }
+  .committee .header {
+    font-size: 20px; }
+  .committee .head {
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); }
+    .committee .head .roundthing {
+      justify-self: center;
+      width: min-content; }
+      .committee .head .roundthing img {
+        min-width: 180px;
+        min-height: 180px; }
+      .committee .head .roundthing div.name {
+        font-size: 17px; }
+      .committee .head .roundthing div.role {
+        font-size: 17px; }
+  .committee div.grid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); }
+    .committee div.grid .roundthing img {
+      min-width: 140px;
+      min-height: 140px; }
+    .committee div.grid .roundthing .name {
+      font-size: 15px; }
+    .committee div.grid .roundthing .role {
+      font-size: 15px; }
+  div.testimonials .header12 {
+    font-size: 20px; }
+  div.testimonials p {
+    font-size: 18px;
+    max-width: 80%;
+    margin: 3% auto; }
+  div.testimonials label {
+    font-size: 19px; }
+  div.testimonials section ul {
+    margin: 3% auto; }
+    div.testimonials section ul li div.date {
+      font-size: 20px;
+      display: inline-block; }
+    div.testimonials section ul li div.eventname {
+      font-size: 18px;
+      display: inline-block;
+      padding-left: 20px; }
+  footer {
+    padding-bottom: 5%; }
+    footer .credits {
+      font-size: 16px; } }
+
 .cards {
   display: grid;
   grid-template-rows: repeat(5, 1fr);
@@ -448,8 +1400,8 @@ nav {
   .cards,
   .description2,
   .committee {
-    padding-left: 15%;
-    padding-right: 15%; }
+    padding-left: 12.5%;
+    padding-right: 12.5%; }
   .post {
     padding-left: 10%;
     padding-right: 10%; }
@@ -458,7 +1410,164 @@ nav {
     margin-right: 10%; } }
 
 /* TABLETS PORTRAIT */
+@media only screen and (min-width: 768px) {
+  header .container {
+    min-height: 80px; }
+    header .container .hamburger {
+      display: none; }
+    header .container .projects-nav {
+      display: flex; }
+    header .container img.main-logo {
+      align-content: flex-end;
+      height: 70px;
+      width: 280px; }
+  .description2,
+  .committee {
+    padding-left: 20%;
+    padding-right: 20%; }
+  .gallery div.fsc-writeup1 {
+    text-align: center;
+    max-width: 80%;
+    font-size: 18px; }
+  .gallery .post {
+    padding-left: 15%;
+    padding-right: 15%; }
+    .gallery .post img.picture {
+      border-radius: 5px; }
+    .gallery .post div.caption {
+      font-size: 17px; }
+  .testimonials {
+    margin-left: 20%;
+    margin-right: 20%; }
+  .main .description1 {
+    padding-top: 50vh; }
+    .main .description1 .imgbg-img {
+      height: 60%; }
+  .main .fsc-description1 div.header1 {
+    font-size: 50px; }
+  .main .fsc-description1 div.fsc-header2 {
+    font-size: 30px; }
+  .main .cards {
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr auto; }
+    .main .cards .card {
+      display: grid;
+      grid-gap: 10px;
+      grid-template-areas: "img" "title" "carddes"; }
+      .main .cards .card img {
+        height: 80px;
+        width: 80px;
+        justify-self: center; }
+      .main .cards .card.camp {
+        grid-column: span 2; }
+      .main .cards .card.event {
+        grid-column: span 3; }
+  .committee .roundthing img {
+    height: 20vh;
+    width: 20vh; } }
+
 /* TABLET LANDSCAPE / DESKTOP */
+@media only screen and (min-width: 1024px) {
+  header .container .hamburger {
+    display: none; }
+  header .container .projects-nav {
+    display: flex; }
+  .gallery .post {
+    padding-left: 25%;
+    padding-right: 25%; }
+    .gallery .post div.caption {
+      font-size: 20px; }
+  .gallery div.fsc-writeup1 {
+    font-size: 28px;
+    line-height: 2rem;
+    max-width: 70%; }
+  .main .description1 .header1 {
+    font-size: 50px;
+    margin-bottom: 10px; }
+  .main .description1 .writeup1 {
+    font-size: 25px; }
+  .main div.fsc-description1 {
+    height: 70vh;
+    padding-left: 20vh; }
+    .main div.fsc-description1 div.header1 {
+      font-size: 50px; }
+    .main div.fsc-description1 div.fsc-header2 {
+      font-size: 40px; }
+  .main .description2 {
+    grid-gap: 0; }
+    .main .description2 img {
+      height: 200px;
+      width: 300px; }
+    .main .description2 .d2header {
+      font-size: 25px; }
+    .main .description2 .d2writeup {
+      font-size: 19px; }
+  .main .cards {
+    margin-top: 2%;
+    grid-template-columns: repeat(5, 1fr); }
+    .main .cards .card {
+      display: grid;
+      grid-gap: 10px;
+      grid-template-areas: "img" "title" "carddes";
+      padding: 30px 30px; }
+      .main .cards .card .title {
+        font-size: 18px;
+        font-weight: 500; }
+      .main .cards .card .carddes {
+        font-size: 16px; }
+      .main .cards .card img {
+        height: 80px;
+        width: 80px;
+        justify-self: center; }
+      .main .cards .card.camp {
+        grid-column: span 1; }
+      .main .cards .card.event {
+        grid-column: span 1; }
+  .committee .header {
+    font-size: 20px; }
+  .committee .head {
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); }
+    .committee .head .roundthing {
+      justify-self: center;
+      width: min-content; }
+      .committee .head .roundthing img {
+        min-width: 180px;
+        min-height: 180px; }
+      .committee .head .roundthing div.name {
+        font-size: 17px; }
+      .committee .head .roundthing div.role {
+        font-size: 17px; }
+  .committee div.grid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); }
+    .committee div.grid .roundthing img {
+      min-width: 140px;
+      min-height: 140px; }
+    .committee div.grid .roundthing .name {
+      font-size: 15px; }
+    .committee div.grid .roundthing .role {
+      font-size: 15px; }
+  div.testimonials .header12 {
+    font-size: 20px; }
+  div.testimonials p {
+    font-size: 18px;
+    max-width: 80%;
+    margin: 3% auto; }
+  div.testimonials label {
+    font-size: 19px; }
+  div.testimonials section ul {
+    margin: 3% auto; }
+    div.testimonials section ul li div.date {
+      font-size: 20px;
+      display: inline-block; }
+    div.testimonials section ul li div.eventname {
+      font-size: 18px;
+      display: inline-block;
+      padding-left: 20px; }
+  footer {
+    padding-bottom: 5%; }
+    footer .credits {
+      font-size: 16px; } }
+
 footer {
   padding-top: 5vh;
   border-top: lightgrey solid 1px;
@@ -478,6 +1587,7 @@ footer {
     color: #6b7c93;
     padding: 15px 0;
     margin: auto;
+    text-align: center;
     font-size: 10px;
     max-width: 70%; }
 
@@ -494,8 +1604,8 @@ footer {
   .cards,
   .description2,
   .committee {
-    padding-left: 15%;
-    padding-right: 15%; }
+    padding-left: 12.5%;
+    padding-right: 12.5%; }
   .post {
     padding-left: 10%;
     padding-right: 10%; }
@@ -504,13 +1614,170 @@ footer {
     margin-right: 10%; } }
 
 /* TABLETS PORTRAIT */
+@media only screen and (min-width: 768px) {
+  header .container {
+    min-height: 80px; }
+    header .container .hamburger {
+      display: none; }
+    header .container .projects-nav {
+      display: flex; }
+    header .container img.main-logo {
+      align-content: flex-end;
+      height: 70px;
+      width: 280px; }
+  .description2,
+  .committee {
+    padding-left: 20%;
+    padding-right: 20%; }
+  .gallery div.fsc-writeup1 {
+    text-align: center;
+    max-width: 80%;
+    font-size: 18px; }
+  .gallery .post {
+    padding-left: 15%;
+    padding-right: 15%; }
+    .gallery .post img.picture {
+      border-radius: 5px; }
+    .gallery .post div.caption {
+      font-size: 17px; }
+  .testimonials {
+    margin-left: 20%;
+    margin-right: 20%; }
+  .main .description1 {
+    padding-top: 50vh; }
+    .main .description1 .imgbg-img {
+      height: 60%; }
+  .main .fsc-description1 div.header1 {
+    font-size: 50px; }
+  .main .fsc-description1 div.fsc-header2 {
+    font-size: 30px; }
+  .main .cards {
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr auto; }
+    .main .cards .card {
+      display: grid;
+      grid-gap: 10px;
+      grid-template-areas: "img" "title" "carddes"; }
+      .main .cards .card img {
+        height: 80px;
+        width: 80px;
+        justify-self: center; }
+      .main .cards .card.camp {
+        grid-column: span 2; }
+      .main .cards .card.event {
+        grid-column: span 3; }
+  .committee .roundthing img {
+    height: 20vh;
+    width: 20vh; } }
+
 /* TABLET LANDSCAPE / DESKTOP */
+@media only screen and (min-width: 1024px) {
+  header .container .hamburger {
+    display: none; }
+  header .container .projects-nav {
+    display: flex; }
+  .gallery .post {
+    padding-left: 25%;
+    padding-right: 25%; }
+    .gallery .post div.caption {
+      font-size: 20px; }
+  .gallery div.fsc-writeup1 {
+    font-size: 28px;
+    line-height: 2rem;
+    max-width: 70%; }
+  .main .description1 .header1 {
+    font-size: 50px;
+    margin-bottom: 10px; }
+  .main .description1 .writeup1 {
+    font-size: 25px; }
+  .main div.fsc-description1 {
+    height: 70vh;
+    padding-left: 20vh; }
+    .main div.fsc-description1 div.header1 {
+      font-size: 50px; }
+    .main div.fsc-description1 div.fsc-header2 {
+      font-size: 40px; }
+  .main .description2 {
+    grid-gap: 0; }
+    .main .description2 img {
+      height: 200px;
+      width: 300px; }
+    .main .description2 .d2header {
+      font-size: 25px; }
+    .main .description2 .d2writeup {
+      font-size: 19px; }
+  .main .cards {
+    margin-top: 2%;
+    grid-template-columns: repeat(5, 1fr); }
+    .main .cards .card {
+      display: grid;
+      grid-gap: 10px;
+      grid-template-areas: "img" "title" "carddes";
+      padding: 30px 30px; }
+      .main .cards .card .title {
+        font-size: 18px;
+        font-weight: 500; }
+      .main .cards .card .carddes {
+        font-size: 16px; }
+      .main .cards .card img {
+        height: 80px;
+        width: 80px;
+        justify-self: center; }
+      .main .cards .card.camp {
+        grid-column: span 1; }
+      .main .cards .card.event {
+        grid-column: span 1; }
+  .committee .header {
+    font-size: 20px; }
+  .committee .head {
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); }
+    .committee .head .roundthing {
+      justify-self: center;
+      width: min-content; }
+      .committee .head .roundthing img {
+        min-width: 180px;
+        min-height: 180px; }
+      .committee .head .roundthing div.name {
+        font-size: 17px; }
+      .committee .head .roundthing div.role {
+        font-size: 17px; }
+  .committee div.grid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); }
+    .committee div.grid .roundthing img {
+      min-width: 140px;
+      min-height: 140px; }
+    .committee div.grid .roundthing .name {
+      font-size: 15px; }
+    .committee div.grid .roundthing .role {
+      font-size: 15px; }
+  div.testimonials .header12 {
+    font-size: 20px; }
+  div.testimonials p {
+    font-size: 18px;
+    max-width: 80%;
+    margin: 3% auto; }
+  div.testimonials label {
+    font-size: 19px; }
+  div.testimonials section ul {
+    margin: 3% auto; }
+    div.testimonials section ul li div.date {
+      font-size: 20px;
+      display: inline-block; }
+    div.testimonials section ul li div.eventname {
+      font-size: 18px;
+      display: inline-block;
+      padding-left: 20px; }
+  footer {
+    padding-bottom: 5%; }
+    footer .credits {
+      font-size: 16px; } }
+
 .main .fsc-description1 {
   padding-top: 30vh;
   padding-bottom: 5vh;
   padding-left: 25px;
   display: grid;
-  grid-template-rows: 1fr 0.3fr 1fr;
+  grid-template-rows: 1fr 0.3fr;
   grid-gap: 10px;
   align-items: flex-end; }
   .main .fsc-description1 div#bg-img {
@@ -569,6 +1836,20 @@ footer {
     overflow: hidden;
     right: 0;
     top: 0; }
+  .main .fsc-description1 div#bg-img-rag {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/ragpictures/rag/p2.jpg) no-repeat center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    position: absolute;
+    max-width: 100%;
+    min-width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+    right: 0;
+    top: 0; }
   .main .fsc-description1 .header1 {
     font-size: 40px;
     font-weight: 500;
@@ -577,11 +1858,6 @@ footer {
   .main .fsc-description1 .fsc-header2 {
     font-size: 20px;
     font-weight: 500; }
-  .main .fsc-description1 .fsc-writeup1 {
-    font-size: 14px;
-    line-height: 1.15rem;
-    font-weight: 400;
-    max-width: 90%; }
 
 .testimonials {
   display: grid;
@@ -648,7 +1924,8 @@ footer {
     color: #abc;
     border: 1px solid transparent;
     border-bottom-width: 0px;
-    grid-column: span 3; }
+    grid-column: span 3;
+    cursor: pointer; }
     .testimonials label.timeline {
       grid-column: span 4; }
     .testimonials label.bash {
@@ -669,6 +1946,13 @@ footer {
   padding: 20px 0;
   grid-gap: 30px;
   border-bottom: 1px solid lightgrey; }
+  .gallery .fsc-writeup1 {
+    font-size: 15px;
+    line-height: 1.15rem;
+    font-weight: 500;
+    max-width: 90%;
+    color: #242325;
+    margin: 10px auto; }
   .gallery .post {
     display: flex;
     flex-direction: column; }
@@ -679,7 +1963,8 @@ footer {
       object-fit: cover; }
     .gallery .post .caption {
       margin: 0 auto;
-      font-size: 13.5px;
+      font-size: 15px;
+      font-weight: 450;
       padding: 10px;
       width: 90%;
       opacity: 0.7;
@@ -722,7 +2007,7 @@ footer {
     grid-template-columns: repeat(auto-fill, minmax(75px, 1fr));
     grid-gap: 15px;
     justify-content: center;
-    margin: 0 30px; }
+    margin: 0 20px; }
     .committee .grid .roundthing {
       text-align: center; }
       .committee .grid .roundthing img {

@@ -95,6 +95,23 @@ $grey: #6b7c93;
         right: 0;
         top: 0;
     }
+
+    &#bg-img-rag {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+            url(../img/ragpictures/rag/p2.jpg) no-repeat center center;
+        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        position: absolute;
+        max-width: 100%;
+        min-width: 100%;
+        height: 100%;
+        z-index: -1;
+        overflow: hidden;
+        right: 0;
+        top: 0;
+    }
 }
 
 /* SMARTPHONES LANDSCAPE */
@@ -117,8 +134,8 @@ $grey: #6b7c93;
     .cards,
     .description2,
     .committee {
-        padding-left: 15%;
-        padding-right: 15%;
+        padding-left: 12.5%;
+        padding-right: 12.5%;
     }
 
     .post {
@@ -134,8 +151,292 @@ $grey: #6b7c93;
 
 /* TABLETS PORTRAIT */
 @media only screen and (min-width: 768px) {
+    header {
+        .container {
+            min-height: 80px;
+
+            .hamburger {
+                display: none;
+            }
+
+            .projects-nav {
+                display: flex;
+            }
+
+            img.main-logo {
+                align-content: flex-end;
+                height: 70px;
+                width: 280px;
+            }
+        }
+    }
+
+    .description2,
+    .committee {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+
+    .gallery {
+        div.fsc-writeup1 {
+            text-align: center;
+            max-width: 80%;
+            font-size: 18px;
+        }
+        .post {
+            padding-left: 15%;
+            padding-right: 15%;
+
+            img.picture {
+                border-radius: 5px;
+            }
+            div.caption {
+                font-size: 17px;
+            }
+        }
+    }
+
+    .testimonials {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    .main {
+        .description1 {
+            padding-top: 50vh;
+
+            .img {
+                &bg-img {
+                    height: 60%;
+                }
+            }
+        }
+
+        .fsc-description1 {
+            div.header1 {
+                font-size: 50px;
+            }
+            div.fsc-header2 {
+                font-size: 30px;
+            }
+        }
+        .cards {
+            grid-template-columns: repeat(6, 1fr);
+            grid-template-rows: 1fr auto;
+
+            .card {
+                display: grid;
+                grid-gap: 10px;
+                grid-template-areas:
+                    "img"
+                    "title"
+                    "carddes";
+
+                img {
+                    height: 80px;
+                    width: 80px;
+                    justify-self: center;
+                }
+
+                &.camp {
+                    grid-column: span 2;
+                }
+
+                &.event {
+                    grid-column: span 3;
+                }
+            }
+        }
+    }
+
+    .committee {
+        .roundthing {
+            img {
+                height: 20vh;
+                width: 20vh;
+            }
+        }
+    }
 }
 
 /* TABLET LANDSCAPE / DESKTOP */
 @media only screen and (min-width: 1024px) {
+    header {
+        .container {
+            .hamburger {
+                display: none;
+            }
+
+            .projects-nav {
+                display: flex;
+            }
+        }
+    }
+
+    .gallery {
+        .post {
+            padding-left: 25%;
+            padding-right: 25%;
+
+            div.caption {
+                font-size: 20px;
+            }
+        }
+        div.fsc-writeup1 {
+            font-size: 28px;
+            line-height: 2rem;
+            max-width: 70%;
+        }
+    }
+
+    .main {
+        .description1 {
+            .header1 {
+                font-size: 50px;
+                margin-bottom: 10px;
+            }
+
+            .writeup1 {
+                font-size: 25px;
+            }
+        }
+
+        div.fsc-description1 {
+            height: 70vh;
+            padding-left: 20vh;
+            div.header1 {
+                font-size: 50px;
+            }
+            div.fsc-header2 {
+                font-size: 40px;
+            }
+        }
+
+        .description2 {
+            grid-gap: 0;
+
+            img {
+                height: 200px;
+                width: 300px;
+            }
+            .d2header {
+                font-size: 25px;
+            }
+            .d2writeup {
+                font-size: 19px;
+            }
+        }
+        .cards {
+            margin-top: 2%;
+            grid-template-columns: repeat(5, 1fr);
+
+            .card {
+                display: grid;
+                grid-gap: 10px;
+                grid-template-areas:
+                    "img"
+                    "title"
+                    "carddes";
+                padding: 30px 30px;
+
+                .title {
+                    font-size: 18px;
+                    font-weight: 500;
+                }
+                .carddes {
+                    font-size: 16px;
+                }
+
+                img {
+                    height: 80px;
+                    width: 80px;
+                    justify-self: center;
+                }
+
+                &.camp {
+                    grid-column: span 1;
+                }
+
+                &.event {
+                    grid-column: span 1;
+                }
+            }
+        }
+    }
+
+    .committee {
+        .header {
+            font-size: 20px;
+        }
+        .head {
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            .roundthing {
+                justify-self: center;
+                width: min-content;
+                img {
+                    min-width: 180px;
+                    min-height: 180px;
+                }
+                div.name {
+                    font-size: 17px;
+                }
+                div.role {
+                    font-size: 17px;
+                }
+            }
+        }
+
+        div.grid {
+            grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+            .roundthing {
+                img {
+                    min-width: 140px;
+                    min-height: 140px;
+                }
+                .name {
+                    font-size: 15px;
+                }
+                .role {
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+
+    div.testimonials {
+        .header12 {
+            font-size: 20px;
+        }
+        p {
+            font-size: 18px;
+            max-width: 80%;
+            margin: 3% auto;
+        }
+        label {
+            font-size: 19px;
+        }
+        section {
+            ul {
+                margin: 3% auto;
+                li {
+                    div.date {
+                        font-size: 20px;
+                        display: inline-block;
+                    }
+                    div.eventname {
+                        font-size: 18px;
+                        display: inline-block;
+                        padding-left: 20px;
+                    }
+                }
+            }
+        }
+    }
+
+    footer {
+        .credits {
+            font-size: 16px;
+        }
+        padding-bottom: 5%;
+    }
 }
