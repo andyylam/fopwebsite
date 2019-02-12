@@ -67,15 +67,15 @@
 /* TABLETS PORTRAIT */
 @media only screen and (min-width: 768px) {
   header .container {
-    min-height: 80px; }
+    min-height: 70px; }
     header .container .hamburger {
       display: none; }
     header .container .projects-nav {
       display: flex; }
     header .container img.main-logo {
       align-content: flex-end;
-      height: 70px;
-      width: 280px; }
+      height: 55px;
+      width: 220px; }
   .description2,
   .committee {
     padding-left: 20%;
@@ -95,7 +95,7 @@
     margin-left: 20%;
     margin-right: 20%; }
   .main .description1 {
-    padding-top: 50vh; }
+    padding-top: 40vh; }
     .main .description1 .imgbg-img {
       height: 60%; }
   .main .fsc-description1 div.header1 {
@@ -136,11 +136,13 @@
     font-size: 28px;
     line-height: 2rem;
     max-width: 70%; }
-  .main .description1 .header1 {
-    font-size: 50px;
-    margin-bottom: 10px; }
-  .main .description1 .writeup1 {
-    font-size: 25px; }
+  .main .description1 {
+    padding-top: 30vh; }
+    .main .description1 .header1 {
+      font-size: 50px;
+      margin-bottom: 10px; }
+    .main .description1 .writeup1 {
+      font-size: 25px; }
   .main div.fsc-description1 {
     height: 70vh;
     padding-left: 20vh; }
@@ -312,15 +314,15 @@
 /* TABLETS PORTRAIT */
 @media only screen and (min-width: 768px) {
   header .container {
-    min-height: 80px; }
+    min-height: 70px; }
     header .container .hamburger {
       display: none; }
     header .container .projects-nav {
       display: flex; }
     header .container img.main-logo {
       align-content: flex-end;
-      height: 70px;
-      width: 280px; }
+      height: 55px;
+      width: 220px; }
   .description2,
   .committee {
     padding-left: 20%;
@@ -340,7 +342,7 @@
     margin-left: 20%;
     margin-right: 20%; }
   .main .description1 {
-    padding-top: 50vh; }
+    padding-top: 40vh; }
     .main .description1 .imgbg-img {
       height: 60%; }
   .main .fsc-description1 div.header1 {
@@ -381,11 +383,13 @@
     font-size: 28px;
     line-height: 2rem;
     max-width: 70%; }
-  .main .description1 .header1 {
-    font-size: 50px;
-    margin-bottom: 10px; }
-  .main .description1 .writeup1 {
-    font-size: 25px; }
+  .main .description1 {
+    padding-top: 30vh; }
+    .main .description1 .header1 {
+      font-size: 50px;
+      margin-bottom: 10px; }
+    .main .description1 .writeup1 {
+      font-size: 25px; }
   .main div.fsc-description1 {
     height: 70vh;
     padding-left: 20vh; }
@@ -493,15 +497,15 @@
 /* TABLETS PORTRAIT */
 @media only screen and (min-width: 768px) {
   header .container {
-    min-height: 80px; }
+    min-height: 70px; }
     header .container .hamburger {
       display: none; }
     header .container .projects-nav {
       display: flex; }
     header .container img.main-logo {
       align-content: flex-end;
-      height: 70px;
-      width: 280px; }
+      height: 55px;
+      width: 220px; }
   .description2,
   .committee {
     padding-left: 20%;
@@ -521,7 +525,7 @@
     margin-left: 20%;
     margin-right: 20%; }
   .main .description1 {
-    padding-top: 50vh; }
+    padding-top: 40vh; }
     .main .description1 .imgbg-img {
       height: 60%; }
   .main .fsc-description1 div.header1 {
@@ -562,11 +566,13 @@
     font-size: 28px;
     line-height: 2rem;
     max-width: 70%; }
-  .main .description1 .header1 {
-    font-size: 50px;
-    margin-bottom: 10px; }
-  .main .description1 .writeup1 {
-    font-size: 25px; }
+  .main .description1 {
+    padding-top: 30vh; }
+    .main .description1 .header1 {
+      font-size: 50px;
+      margin-bottom: 10px; }
+    .main .description1 .writeup1 {
+      font-size: 25px; }
   .main div.fsc-description1 {
     height: 70vh;
     padding-left: 20vh; }
@@ -731,15 +737,15 @@ header {
 /* TABLETS PORTRAIT */
 @media only screen and (min-width: 768px) {
   header .container {
-    min-height: 80px; }
+    min-height: 70px; }
     header .container .hamburger {
       display: none; }
     header .container .projects-nav {
       display: flex; }
     header .container img.main-logo {
       align-content: flex-end;
-      height: 70px;
-      width: 280px; }
+      height: 55px;
+      width: 220px; }
   .description2,
   .committee {
     padding-left: 20%;
@@ -759,7 +765,7 @@ header {
     margin-left: 20%;
     margin-right: 20%; }
   .main .description1 {
-    padding-top: 50vh; }
+    padding-top: 40vh; }
     .main .description1 .imgbg-img {
       height: 60%; }
   .main .fsc-description1 div.header1 {
@@ -800,11 +806,13 @@ header {
     font-size: 28px;
     line-height: 2rem;
     max-width: 70%; }
-  .main .description1 .header1 {
-    font-size: 50px;
-    margin-bottom: 10px; }
-  .main .description1 .writeup1 {
-    font-size: 25px; }
+  .main .description1 {
+    padding-top: 30vh; }
+    .main .description1 .header1 {
+      font-size: 50px;
+      margin-bottom: 10px; }
+    .main .description1 .writeup1 {
+      font-size: 25px; }
   .main div.fsc-description1 {
     height: 70vh;
     padding-left: 20vh; }
@@ -988,15 +996,15 @@ nav {
 /* TABLETS PORTRAIT */
 @media only screen and (min-width: 768px) {
   header .container {
-    min-height: 80px; }
+    min-height: 70px; }
     header .container .hamburger {
       display: none; }
     header .container .projects-nav {
       display: flex; }
     header .container img.main-logo {
       align-content: flex-end;
-      height: 70px;
-      width: 280px; }
+      height: 55px;
+      width: 220px; }
   .description2,
   .committee {
     padding-left: 20%;
@@ -1016,7 +1024,7 @@ nav {
     margin-left: 20%;
     margin-right: 20%; }
   .main .description1 {
-    padding-top: 50vh; }
+    padding-top: 40vh; }
     .main .description1 .imgbg-img {
       height: 60%; }
   .main .fsc-description1 div.header1 {
@@ -1057,11 +1065,13 @@ nav {
     font-size: 28px;
     line-height: 2rem;
     max-width: 70%; }
-  .main .description1 .header1 {
-    font-size: 50px;
-    margin-bottom: 10px; }
-  .main .description1 .writeup1 {
-    font-size: 25px; }
+  .main .description1 {
+    padding-top: 30vh; }
+    .main .description1 .header1 {
+      font-size: 50px;
+      margin-bottom: 10px; }
+    .main .description1 .writeup1 {
+      font-size: 25px; }
   .main div.fsc-description1 {
     height: 70vh;
     padding-left: 20vh; }
@@ -1190,15 +1200,15 @@ nav {
 /* TABLETS PORTRAIT */
 @media only screen and (min-width: 768px) {
   header .container {
-    min-height: 80px; }
+    min-height: 70px; }
     header .container .hamburger {
       display: none; }
     header .container .projects-nav {
       display: flex; }
     header .container img.main-logo {
       align-content: flex-end;
-      height: 70px;
-      width: 280px; }
+      height: 55px;
+      width: 220px; }
   .description2,
   .committee {
     padding-left: 20%;
@@ -1218,7 +1228,7 @@ nav {
     margin-left: 20%;
     margin-right: 20%; }
   .main .description1 {
-    padding-top: 50vh; }
+    padding-top: 40vh; }
     .main .description1 .imgbg-img {
       height: 60%; }
   .main .fsc-description1 div.header1 {
@@ -1259,11 +1269,13 @@ nav {
     font-size: 28px;
     line-height: 2rem;
     max-width: 70%; }
-  .main .description1 .header1 {
-    font-size: 50px;
-    margin-bottom: 10px; }
-  .main .description1 .writeup1 {
-    font-size: 25px; }
+  .main .description1 {
+    padding-top: 30vh; }
+    .main .description1 .header1 {
+      font-size: 50px;
+      margin-bottom: 10px; }
+    .main .description1 .writeup1 {
+      font-size: 25px; }
   .main div.fsc-description1 {
     height: 70vh;
     padding-left: 20vh; }
@@ -1412,15 +1424,15 @@ nav {
 /* TABLETS PORTRAIT */
 @media only screen and (min-width: 768px) {
   header .container {
-    min-height: 80px; }
+    min-height: 70px; }
     header .container .hamburger {
       display: none; }
     header .container .projects-nav {
       display: flex; }
     header .container img.main-logo {
       align-content: flex-end;
-      height: 70px;
-      width: 280px; }
+      height: 55px;
+      width: 220px; }
   .description2,
   .committee {
     padding-left: 20%;
@@ -1440,7 +1452,7 @@ nav {
     margin-left: 20%;
     margin-right: 20%; }
   .main .description1 {
-    padding-top: 50vh; }
+    padding-top: 40vh; }
     .main .description1 .imgbg-img {
       height: 60%; }
   .main .fsc-description1 div.header1 {
@@ -1481,11 +1493,13 @@ nav {
     font-size: 28px;
     line-height: 2rem;
     max-width: 70%; }
-  .main .description1 .header1 {
-    font-size: 50px;
-    margin-bottom: 10px; }
-  .main .description1 .writeup1 {
-    font-size: 25px; }
+  .main .description1 {
+    padding-top: 30vh; }
+    .main .description1 .header1 {
+      font-size: 50px;
+      margin-bottom: 10px; }
+    .main .description1 .writeup1 {
+      font-size: 25px; }
   .main div.fsc-description1 {
     height: 70vh;
     padding-left: 20vh; }
@@ -1616,15 +1630,15 @@ footer {
 /* TABLETS PORTRAIT */
 @media only screen and (min-width: 768px) {
   header .container {
-    min-height: 80px; }
+    min-height: 70px; }
     header .container .hamburger {
       display: none; }
     header .container .projects-nav {
       display: flex; }
     header .container img.main-logo {
       align-content: flex-end;
-      height: 70px;
-      width: 280px; }
+      height: 55px;
+      width: 220px; }
   .description2,
   .committee {
     padding-left: 20%;
@@ -1644,7 +1658,7 @@ footer {
     margin-left: 20%;
     margin-right: 20%; }
   .main .description1 {
-    padding-top: 50vh; }
+    padding-top: 40vh; }
     .main .description1 .imgbg-img {
       height: 60%; }
   .main .fsc-description1 div.header1 {
@@ -1685,11 +1699,13 @@ footer {
     font-size: 28px;
     line-height: 2rem;
     max-width: 70%; }
-  .main .description1 .header1 {
-    font-size: 50px;
-    margin-bottom: 10px; }
-  .main .description1 .writeup1 {
-    font-size: 25px; }
+  .main .description1 {
+    padding-top: 30vh; }
+    .main .description1 .header1 {
+      font-size: 50px;
+      margin-bottom: 10px; }
+    .main .description1 .writeup1 {
+      font-size: 25px; }
   .main div.fsc-description1 {
     height: 70vh;
     padding-left: 20vh; }
