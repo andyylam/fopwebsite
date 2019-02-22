@@ -113,6 +113,8 @@
         height: 80px;
         width: 80px;
         justify-self: center; }
+        .main .cards .card img.e-rag {
+          height: 65px; }
       .main .cards .card.camp {
         grid-column: span 2; }
       .main .cards .card.event {
@@ -176,6 +178,8 @@
         height: 80px;
         width: 80px;
         justify-self: center; }
+        .main .cards .card img.e-rag {
+          height: 65px; }
       .main .cards .card.camp {
         grid-column: span 1; }
       .main .cards .card.event {
@@ -360,6 +364,8 @@
         height: 80px;
         width: 80px;
         justify-self: center; }
+        .main .cards .card img.e-rag {
+          height: 65px; }
       .main .cards .card.camp {
         grid-column: span 2; }
       .main .cards .card.event {
@@ -423,6 +429,8 @@
         height: 80px;
         width: 80px;
         justify-self: center; }
+        .main .cards .card img.e-rag {
+          height: 65px; }
       .main .cards .card.camp {
         grid-column: span 1; }
       .main .cards .card.event {
@@ -543,6 +551,8 @@
         height: 80px;
         width: 80px;
         justify-self: center; }
+        .main .cards .card img.e-rag {
+          height: 65px; }
       .main .cards .card.camp {
         grid-column: span 2; }
       .main .cards .card.event {
@@ -606,6 +616,8 @@
         height: 80px;
         width: 80px;
         justify-self: center; }
+        .main .cards .card img.e-rag {
+          height: 65px; }
       .main .cards .card.camp {
         grid-column: span 1; }
       .main .cards .card.event {
@@ -783,6 +795,8 @@ header {
         height: 80px;
         width: 80px;
         justify-self: center; }
+        .main .cards .card img.e-rag {
+          height: 65px; }
       .main .cards .card.camp {
         grid-column: span 2; }
       .main .cards .card.event {
@@ -846,6 +860,8 @@ header {
         height: 80px;
         width: 80px;
         justify-self: center; }
+        .main .cards .card img.e-rag {
+          height: 65px; }
       .main .cards .card.camp {
         grid-column: span 1; }
       .main .cards .card.event {
@@ -1042,6 +1058,8 @@ nav {
         height: 80px;
         width: 80px;
         justify-self: center; }
+        .main .cards .card img.e-rag {
+          height: 65px; }
       .main .cards .card.camp {
         grid-column: span 2; }
       .main .cards .card.event {
@@ -1105,6 +1123,8 @@ nav {
         height: 80px;
         width: 80px;
         justify-self: center; }
+        .main .cards .card img.e-rag {
+          height: 65px; }
       .main .cards .card.camp {
         grid-column: span 1; }
       .main .cards .card.event {
@@ -1246,6 +1266,8 @@ nav {
         height: 80px;
         width: 80px;
         justify-self: center; }
+        .main .cards .card img.e-rag {
+          height: 65px; }
       .main .cards .card.camp {
         grid-column: span 2; }
       .main .cards .card.event {
@@ -1309,6 +1331,8 @@ nav {
         height: 80px;
         width: 80px;
         justify-self: center; }
+        .main .cards .card img.e-rag {
+          height: 65px; }
       .main .cards .card.camp {
         grid-column: span 1; }
       .main .cards .card.event {
@@ -1384,6 +1408,8 @@ nav {
       height: 75px;
       width: 75px;
       margin-right: 20px; }
+      .cards .card img .e-rag {
+        height: 65px; }
     .cards .card .title {
       grid-area: "title";
       color: #242325;
@@ -1470,6 +1496,8 @@ nav {
         height: 80px;
         width: 80px;
         justify-self: center; }
+        .main .cards .card img.e-rag {
+          height: 65px; }
       .main .cards .card.camp {
         grid-column: span 2; }
       .main .cards .card.event {
@@ -1533,6 +1561,8 @@ nav {
         height: 80px;
         width: 80px;
         justify-self: center; }
+        .main .cards .card img.e-rag {
+          height: 65px; }
       .main .cards .card.camp {
         grid-column: span 1; }
       .main .cards .card.event {
@@ -1676,6 +1706,8 @@ footer {
         height: 80px;
         width: 80px;
         justify-self: center; }
+        .main .cards .card img.e-rag {
+          height: 65px; }
       .main .cards .card.camp {
         grid-column: span 2; }
       .main .cards .card.event {
@@ -1739,6 +1771,8 @@ footer {
         height: 80px;
         width: 80px;
         justify-self: center; }
+        .main .cards .card img.e-rag {
+          height: 65px; }
       .main .cards .card.camp {
         grid-column: span 1; }
       .main .cards .card.event {
