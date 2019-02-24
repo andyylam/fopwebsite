@@ -230,6 +230,7 @@
       font-size: 16px; } }
 
 .main .description1 {
+  margin-top: 12vh;
   padding: 50px 0px 50px 20px;
   display: flex;
   flex-direction: column; }
@@ -1408,7 +1409,7 @@ nav {
       height: 75px;
       width: 75px;
       margin-right: 20px; }
-      .cards .card img .e-rag {
+      .cards .card img.e-rag {
         height: 65px; }
     .cards .card .title {
       grid-area: "title";
