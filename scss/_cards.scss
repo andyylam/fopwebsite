@@ -58,3 +58,32 @@
         }
     }
 }
+
+.faq {
+    background-color: whitesmoke;
+    border-top: 1px solid lightgrey;
+    padding-bottom: 10px; 
+
+    .faq_title {
+        font-size: 20px;
+        color: $charcoal;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .faq_container {
+        font-size: 15px; 
+
+        .question {
+            color: $charcoal;
+            font-weight: 800;
+            padding: 5px 20px;
+            text-align: center;
+        }
+
+        .answer {
+            color: $charcoal;
+            padding: 20px;
+        }
+    }
+}

@@ -132,6 +132,7 @@ $grey: #6b7c93;
     }
 
     .cards,
+    .faq,
     .description2,
     .committee {
         padding-left: 12.5%;
@@ -146,6 +147,10 @@ $grey: #6b7c93;
     .testimonials {
         margin-left: 10%;
         margin-right: 10%;
+    }
+
+    .faq.faq_title {
+        font-weight: 800;
     }
 }
 
@@ -249,6 +254,14 @@ $grey: #6b7c93;
                 &.event {
                     grid-column: span 3;
                 }
+            }
+        }
+        
+        .faq {
+            margin: 0 5%; 
+
+            .faq_title {
+                font-weight: 800;
             }
         }
     }
@@ -370,6 +383,17 @@ $grey: #6b7c93;
                 &.event {
                     grid-column: span 1;
                 }
+            }
+        }
+        
+        .faq {
+            margin: 0% 15%;
+            .faq_title {
+                font-size: 25px;
+                font-weight: 800;
+            }
+            .faq_container {
+                font-size: 17px;
             }
         }
     }

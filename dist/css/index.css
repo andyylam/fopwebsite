@@ -53,6 +53,7 @@
     padding-left: 15%;
     padding-right: 15%; }
   .cards,
+  .faq,
   .description2,
   .committee {
     padding-left: 12.5%;
@@ -62,7 +63,9 @@
     padding-right: 10%; }
   .testimonials {
     margin-left: 10%;
-    margin-right: 10%; } }
+    margin-right: 10%; }
+  .faq.faq_title {
+    font-weight: 800; } }
 
 /* TABLETS PORTRAIT */
 @media only screen and (min-width: 768px) {
@@ -108,7 +111,7 @@
     .main .cards .card {
       display: grid;
       grid-gap: 10px;
-      grid-template-areas: "img" "title" "carddes"; }
+      grid-template-areas: "img" "title" "carddes"; }
       .main .cards .card img {
         height: 80px;
         width: 80px;
@@ -119,6 +122,10 @@
         grid-column: span 2; }
       .main .cards .card.event {
         grid-column: span 3; }
+  .main .faq {
+    margin: 0 5%; }
+    .main .faq .faq_title {
+      font-weight: 800; }
   .committee .roundthing img {
     height: 20vh;
     width: 20vh; } }
@@ -167,7 +174,7 @@
     .main .cards .card {
       display: grid;
       grid-gap: 10px;
-      grid-template-areas: "img" "title" "carddes";
+      grid-template-areas: "img" "title" "carddes";
       padding: 30px 30px; }
       .main .cards .card .title {
         font-size: 18px;
@@ -184,6 +191,13 @@
         grid-column: span 1; }
       .main .cards .card.event {
         grid-column: span 1; }
+  .main .faq {
+    margin: 0% 15%; }
+    .main .faq .faq_title {
+      font-size: 25px;
+      font-weight: 800; }
+    .main .faq .faq_container {
+      font-size: 17px; }
   .committee .header {
     font-size: 20px; }
   .committee .head {
@@ -305,6 +319,7 @@
     padding-left: 15%;
     padding-right: 15%; }
   .cards,
+  .faq,
   .description2,
   .committee {
     padding-left: 12.5%;
@@ -314,7 +329,9 @@
     padding-right: 10%; }
   .testimonials {
     margin-left: 10%;
-    margin-right: 10%; } }
+    margin-right: 10%; }
+  .faq.faq_title {
+    font-weight: 800; } }
 
 /* TABLETS PORTRAIT */
 @media only screen and (min-width: 768px) {
@@ -360,7 +377,7 @@
     .main .cards .card {
       display: grid;
       grid-gap: 10px;
-      grid-template-areas: "img" "title" "carddes"; }
+      grid-template-areas: "img" "title" "carddes"; }
       .main .cards .card img {
         height: 80px;
         width: 80px;
@@ -371,6 +388,10 @@
         grid-column: span 2; }
       .main .cards .card.event {
         grid-column: span 3; }
+  .main .faq {
+    margin: 0 5%; }
+    .main .faq .faq_title {
+      font-weight: 800; }
   .committee .roundthing img {
     height: 20vh;
     width: 20vh; } }
@@ -419,7 +440,7 @@
     .main .cards .card {
       display: grid;
       grid-gap: 10px;
-      grid-template-areas: "img" "title" "carddes";
+      grid-template-areas: "img" "title" "carddes";
       padding: 30px 30px; }
       .main .cards .card .title {
         font-size: 18px;
@@ -436,6 +457,13 @@
         grid-column: span 1; }
       .main .cards .card.event {
         grid-column: span 1; }
+  .main .faq {
+    margin: 0% 15%; }
+    .main .faq .faq_title {
+      font-size: 25px;
+      font-weight: 800; }
+    .main .faq .faq_container {
+      font-size: 17px; }
   .committee .header {
     font-size: 20px; }
   .committee .head {
@@ -492,6 +520,7 @@
     padding-left: 15%;
     padding-right: 15%; }
   .cards,
+  .faq,
   .description2,
   .committee {
     padding-left: 12.5%;
@@ -501,7 +530,9 @@
     padding-right: 10%; }
   .testimonials {
     margin-left: 10%;
-    margin-right: 10%; } }
+    margin-right: 10%; }
+  .faq.faq_title {
+    font-weight: 800; } }
 
 /* TABLETS PORTRAIT */
 @media only screen and (min-width: 768px) {
@@ -547,7 +578,7 @@
     .main .cards .card {
       display: grid;
       grid-gap: 10px;
-      grid-template-areas: "img" "title" "carddes"; }
+      grid-template-areas: "img" "title" "carddes"; }
       .main .cards .card img {
         height: 80px;
         width: 80px;
@@ -558,6 +589,10 @@
         grid-column: span 2; }
       .main .cards .card.event {
         grid-column: span 3; }
+  .main .faq {
+    margin: 0 5%; }
+    .main .faq .faq_title {
+      font-weight: 800; }
   .committee .roundthing img {
     height: 20vh;
     width: 20vh; } }
@@ -606,7 +641,7 @@
     .main .cards .card {
       display: grid;
       grid-gap: 10px;
-      grid-template-areas: "img" "title" "carddes";
+      grid-template-areas: "img" "title" "carddes";
       padding: 30px 30px; }
       .main .cards .card .title {
         font-size: 18px;
@@ -623,6 +658,13 @@
         grid-column: span 1; }
       .main .cards .card.event {
         grid-column: span 1; }
+  .main .faq {
+    margin: 0% 15%; }
+    .main .faq .faq_title {
+      font-size: 25px;
+      font-weight: 800; }
+    .main .faq .faq_container {
+      font-size: 17px; }
   .committee .header {
     font-size: 20px; }
   .committee .head {
@@ -736,6 +778,7 @@ header {
     padding-left: 15%;
     padding-right: 15%; }
   .cards,
+  .faq,
   .description2,
   .committee {
     padding-left: 12.5%;
@@ -745,7 +788,9 @@ header {
     padding-right: 10%; }
   .testimonials {
     margin-left: 10%;
-    margin-right: 10%; } }
+    margin-right: 10%; }
+  .faq.faq_title {
+    font-weight: 800; } }
 
 /* TABLETS PORTRAIT */
 @media only screen and (min-width: 768px) {
@@ -791,7 +836,7 @@ header {
     .main .cards .card {
       display: grid;
       grid-gap: 10px;
-      grid-template-areas: "img" "title" "carddes"; }
+      grid-template-areas: "img" "title" "carddes"; }
       .main .cards .card img {
         height: 80px;
         width: 80px;
@@ -802,6 +847,10 @@ header {
         grid-column: span 2; }
       .main .cards .card.event {
         grid-column: span 3; }
+  .main .faq {
+    margin: 0 5%; }
+    .main .faq .faq_title {
+      font-weight: 800; }
   .committee .roundthing img {
     height: 20vh;
     width: 20vh; } }
@@ -850,7 +899,7 @@ header {
     .main .cards .card {
       display: grid;
       grid-gap: 10px;
-      grid-template-areas: "img" "title" "carddes";
+      grid-template-areas: "img" "title" "carddes";
       padding: 30px 30px; }
       .main .cards .card .title {
         font-size: 18px;
@@ -867,6 +916,13 @@ header {
         grid-column: span 1; }
       .main .cards .card.event {
         grid-column: span 1; }
+  .main .faq {
+    margin: 0% 15%; }
+    .main .faq .faq_title {
+      font-size: 25px;
+      font-weight: 800; }
+    .main .faq .faq_container {
+      font-size: 17px; }
   .committee .header {
     font-size: 20px; }
   .committee .head {
@@ -999,6 +1055,7 @@ nav {
     padding-left: 15%;
     padding-right: 15%; }
   .cards,
+  .faq,
   .description2,
   .committee {
     padding-left: 12.5%;
@@ -1008,7 +1065,9 @@ nav {
     padding-right: 10%; }
   .testimonials {
     margin-left: 10%;
-    margin-right: 10%; } }
+    margin-right: 10%; }
+  .faq.faq_title {
+    font-weight: 800; } }
 
 /* TABLETS PORTRAIT */
 @media only screen and (min-width: 768px) {
@@ -1054,7 +1113,7 @@ nav {
     .main .cards .card {
       display: grid;
       grid-gap: 10px;
-      grid-template-areas: "img" "title" "carddes"; }
+      grid-template-areas: "img" "title" "carddes"; }
       .main .cards .card img {
         height: 80px;
         width: 80px;
@@ -1065,6 +1124,10 @@ nav {
         grid-column: span 2; }
       .main .cards .card.event {
         grid-column: span 3; }
+  .main .faq {
+    margin: 0 5%; }
+    .main .faq .faq_title {
+      font-weight: 800; }
   .committee .roundthing img {
     height: 20vh;
     width: 20vh; } }
@@ -1113,7 +1176,7 @@ nav {
     .main .cards .card {
       display: grid;
       grid-gap: 10px;
-      grid-template-areas: "img" "title" "carddes";
+      grid-template-areas: "img" "title" "carddes";
       padding: 30px 30px; }
       .main .cards .card .title {
         font-size: 18px;
@@ -1130,6 +1193,13 @@ nav {
         grid-column: span 1; }
       .main .cards .card.event {
         grid-column: span 1; }
+  .main .faq {
+    margin: 0% 15%; }
+    .main .faq .faq_title {
+      font-size: 25px;
+      font-weight: 800; }
+    .main .faq .faq_container {
+      font-size: 17px; }
   .committee .header {
     font-size: 20px; }
   .committee .head {
@@ -1207,6 +1277,7 @@ nav {
     padding-left: 15%;
     padding-right: 15%; }
   .cards,
+  .faq,
   .description2,
   .committee {
     padding-left: 12.5%;
@@ -1216,7 +1287,9 @@ nav {
     padding-right: 10%; }
   .testimonials {
     margin-left: 10%;
-    margin-right: 10%; } }
+    margin-right: 10%; }
+  .faq.faq_title {
+    font-weight: 800; } }
 
 /* TABLETS PORTRAIT */
 @media only screen and (min-width: 768px) {
@@ -1262,7 +1335,7 @@ nav {
     .main .cards .card {
       display: grid;
       grid-gap: 10px;
-      grid-template-areas: "img" "title" "carddes"; }
+      grid-template-areas: "img" "title" "carddes"; }
       .main .cards .card img {
         height: 80px;
         width: 80px;
@@ -1273,6 +1346,10 @@ nav {
         grid-column: span 2; }
       .main .cards .card.event {
         grid-column: span 3; }
+  .main .faq {
+    margin: 0 5%; }
+    .main .faq .faq_title {
+      font-weight: 800; }
   .committee .roundthing img {
     height: 20vh;
     width: 20vh; } }
@@ -1321,7 +1398,7 @@ nav {
     .main .cards .card {
       display: grid;
       grid-gap: 10px;
-      grid-template-areas: "img" "title" "carddes";
+      grid-template-areas: "img" "title" "carddes";
       padding: 30px 30px; }
       .main .cards .card .title {
         font-size: 18px;
@@ -1338,6 +1415,13 @@ nav {
         grid-column: span 1; }
       .main .cards .card.event {
         grid-column: span 1; }
+  .main .faq {
+    margin: 0% 15%; }
+    .main .faq .faq_title {
+      font-size: 25px;
+      font-weight: 800; }
+    .main .faq .faq_container {
+      font-size: 17px; }
   .committee .header {
     font-size: 20px; }
   .committee .head {
@@ -1401,7 +1485,7 @@ nav {
     padding: 10px 30px;
     display: grid;
     grid-gap: 10px;
-    grid-template-areas: "img title" "img carddes";
+    grid-template-areas: "img title" "img carddes";
     align-items: center; }
     .cards .card img {
       grid-area: "img";
@@ -1426,6 +1510,26 @@ nav {
       grid-area: "carddes";
       color: #242325; }
 
+.faq {
+  background-color: whitesmoke;
+  border-top: 1px solid lightgrey;
+  padding-bottom: 10px; }
+  .faq .faq_title {
+    font-size: 20px;
+    color: #242325;
+    padding: 20px;
+    text-align: center; }
+  .faq .faq_container {
+    font-size: 15px; }
+    .faq .faq_container .question {
+      color: #242325;
+      font-weight: 800;
+      padding: 5px 20px;
+      text-align: center; }
+    .faq .faq_container .answer {
+      color: #242325;
+      padding: 20px; }
+
 /* SMARTPHONES LANDSCAPE */
 @media only screen and (min-width: 480px) {
   html {
@@ -1437,6 +1541,7 @@ nav {
     padding-left: 15%;
     padding-right: 15%; }
   .cards,
+  .faq,
   .description2,
   .committee {
     padding-left: 12.5%;
@@ -1446,7 +1551,9 @@ nav {
     padding-right: 10%; }
   .testimonials {
     margin-left: 10%;
-    margin-right: 10%; } }
+    margin-right: 10%; }
+  .faq.faq_title {
+    font-weight: 800; } }
 
 /* TABLETS PORTRAIT */
 @media only screen and (min-width: 768px) {
@@ -1492,7 +1599,7 @@ nav {
     .main .cards .card {
       display: grid;
       grid-gap: 10px;
-      grid-template-areas: "img" "title" "carddes"; }
+      grid-template-areas: "img" "title" "carddes"; }
       .main .cards .card img {
         height: 80px;
         width: 80px;
@@ -1503,6 +1610,10 @@ nav {
         grid-column: span 2; }
       .main .cards .card.event {
         grid-column: span 3; }
+  .main .faq {
+    margin: 0 5%; }
+    .main .faq .faq_title {
+      font-weight: 800; }
   .committee .roundthing img {
     height: 20vh;
     width: 20vh; } }
@@ -1551,7 +1662,7 @@ nav {
     .main .cards .card {
       display: grid;
       grid-gap: 10px;
-      grid-template-areas: "img" "title" "carddes";
+      grid-template-areas: "img" "title" "carddes";
       padding: 30px 30px; }
       .main .cards .card .title {
         font-size: 18px;
@@ -1568,6 +1679,13 @@ nav {
         grid-column: span 1; }
       .main .cards .card.event {
         grid-column: span 1; }
+  .main .faq {
+    margin: 0% 15%; }
+    .main .faq .faq_title {
+      font-size: 25px;
+      font-weight: 800; }
+    .main .faq .faq_container {
+      font-size: 17px; }
   .committee .header {
     font-size: 20px; }
   .committee .head {
@@ -1647,6 +1765,7 @@ footer {
     padding-left: 15%;
     padding-right: 15%; }
   .cards,
+  .faq,
   .description2,
   .committee {
     padding-left: 12.5%;
@@ -1656,7 +1775,9 @@ footer {
     padding-right: 10%; }
   .testimonials {
     margin-left: 10%;
-    margin-right: 10%; } }
+    margin-right: 10%; }
+  .faq.faq_title {
+    font-weight: 800; } }
 
 /* TABLETS PORTRAIT */
 @media only screen and (min-width: 768px) {
@@ -1702,7 +1823,7 @@ footer {
     .main .cards .card {
       display: grid;
       grid-gap: 10px;
-      grid-template-areas: "img" "title" "carddes"; }
+      grid-template-areas: "img" "title" "carddes"; }
       .main .cards .card img {
         height: 80px;
         width: 80px;
@@ -1713,6 +1834,10 @@ footer {
         grid-column: span 2; }
       .main .cards .card.event {
         grid-column: span 3; }
+  .main .faq {
+    margin: 0 5%; }
+    .main .faq .faq_title {
+      font-weight: 800; }
   .committee .roundthing img {
     height: 20vh;
     width: 20vh; } }
@@ -1761,7 +1886,7 @@ footer {
     .main .cards .card {
       display: grid;
       grid-gap: 10px;
-      grid-template-areas: "img" "title" "carddes";
+      grid-template-areas: "img" "title" "carddes";
       padding: 30px 30px; }
       .main .cards .card .title {
         font-size: 18px;
@@ -1778,6 +1903,13 @@ footer {
         grid-column: span 1; }
       .main .cards .card.event {
         grid-column: span 1; }
+  .main .faq {
+    margin: 0% 15%; }
+    .main .faq .faq_title {
+      font-size: 25px;
+      font-weight: 800; }
+    .main .faq .faq_container {
+      font-size: 17px; }
   .committee .header {
     font-size: 20px; }
   .committee .head {
@@ -2083,7 +2215,7 @@ footer {
 
 a {
   transition: all 0.2s ease;
-  transition-property: transform, opacity, color, border-color, background-color; }
+  transition-property: transform, opacity, color, border-color, background-color; }
 
 html,
 body {
@@ -2091,4 +2223,5 @@ body {
   overflow-x: hidden;
   margin-left: 0;
   margin-right: 0;
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  scroll-behavior: smooth; }
