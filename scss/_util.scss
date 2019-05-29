@@ -147,12 +147,16 @@ $grey: #6b7c93;
 		}
 	}
 
-	.cards,
 	.faq,
 	.description2,
 	.committee {
 		padding-left: 12.5%;
 		padding-right: 12.5%;
+	}
+
+	.cards {
+		padding-left: 10%;
+		padding-right: 10%;
 	}
 
 	.post {
@@ -359,7 +363,7 @@ $grey: #6b7c93;
 		}
 		.cards {
 			margin-top: 2%;
-			grid-template-columns: repeat(5, 1fr);
+			grid-template-columns: repeat(6, 1fr);
 
 			.card {
 				display: grid;

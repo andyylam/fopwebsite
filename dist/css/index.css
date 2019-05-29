@@ -52,12 +52,14 @@
   .main .fsc-description1 {
     padding-left: 15%;
     padding-right: 15%; }
-  .cards,
   .faq,
   .description2,
   .committee {
     padding-left: 12.5%;
     padding-right: 12.5%; }
+  .cards {
+    padding-left: 10%;
+    padding-right: 10%; }
   .post {
     padding-left: 10%;
     padding-right: 10%; }
@@ -168,7 +170,7 @@
       font-size: 19px; }
   .main .cards {
     margin-top: 2%;
-    grid-template-columns: repeat(5, 1fr); }
+    grid-template-columns: repeat(6, 1fr); }
     .main .cards .card {
       display: grid;
       grid-gap: 10px;
@@ -316,12 +318,14 @@
   .main .fsc-description1 {
     padding-left: 15%;
     padding-right: 15%; }
-  .cards,
   .faq,
   .description2,
   .committee {
     padding-left: 12.5%;
     padding-right: 12.5%; }
+  .cards {
+    padding-left: 10%;
+    padding-right: 10%; }
   .post {
     padding-left: 10%;
     padding-right: 10%; }
@@ -432,7 +436,7 @@
       font-size: 19px; }
   .main .cards {
     margin-top: 2%;
-    grid-template-columns: repeat(5, 1fr); }
+    grid-template-columns: repeat(6, 1fr); }
     .main .cards .card {
       display: grid;
       grid-gap: 10px;
@@ -515,12 +519,14 @@
   .main .fsc-description1 {
     padding-left: 15%;
     padding-right: 15%; }
-  .cards,
   .faq,
   .description2,
   .committee {
     padding-left: 12.5%;
     padding-right: 12.5%; }
+  .cards {
+    padding-left: 10%;
+    padding-right: 10%; }
   .post {
     padding-left: 10%;
     padding-right: 10%; }
@@ -631,7 +637,7 @@
       font-size: 19px; }
   .main .cards {
     margin-top: 2%;
-    grid-template-columns: repeat(5, 1fr); }
+    grid-template-columns: repeat(6, 1fr); }
     .main .cards .card {
       display: grid;
       grid-gap: 10px;
@@ -771,12 +777,14 @@ header {
   .main .fsc-description1 {
     padding-left: 15%;
     padding-right: 15%; }
-  .cards,
   .faq,
   .description2,
   .committee {
     padding-left: 12.5%;
     padding-right: 12.5%; }
+  .cards {
+    padding-left: 10%;
+    padding-right: 10%; }
   .post {
     padding-left: 10%;
     padding-right: 10%; }
@@ -887,7 +895,7 @@ header {
       font-size: 19px; }
   .main .cards {
     margin-top: 2%;
-    grid-template-columns: repeat(5, 1fr); }
+    grid-template-columns: repeat(6, 1fr); }
     .main .cards .card {
       display: grid;
       grid-gap: 10px;
@@ -1046,12 +1054,14 @@ nav {
   .main .fsc-description1 {
     padding-left: 15%;
     padding-right: 15%; }
-  .cards,
   .faq,
   .description2,
   .committee {
     padding-left: 12.5%;
     padding-right: 12.5%; }
+  .cards {
+    padding-left: 10%;
+    padding-right: 10%; }
   .post {
     padding-left: 10%;
     padding-right: 10%; }
@@ -1162,7 +1172,7 @@ nav {
       font-size: 19px; }
   .main .cards {
     margin-top: 2%;
-    grid-template-columns: repeat(5, 1fr); }
+    grid-template-columns: repeat(6, 1fr); }
     .main .cards .card {
       display: grid;
       grid-gap: 10px;
@@ -1266,12 +1276,14 @@ nav {
   .main .fsc-description1 {
     padding-left: 15%;
     padding-right: 15%; }
-  .cards,
   .faq,
   .description2,
   .committee {
     padding-left: 12.5%;
     padding-right: 12.5%; }
+  .cards {
+    padding-left: 10%;
+    padding-right: 10%; }
   .post {
     padding-left: 10%;
     padding-right: 10%; }
@@ -1382,7 +1394,7 @@ nav {
       font-size: 19px; }
   .main .cards {
     margin-top: 2%;
-    grid-template-columns: repeat(5, 1fr); }
+    grid-template-columns: repeat(6, 1fr); }
     .main .cards .card {
       display: grid;
       grid-gap: 10px;
@@ -1457,7 +1469,7 @@ nav {
 
 .cards {
   display: grid;
-  grid-template-rows: repeat(5, 1fr);
+  grid-template-rows: repeat(6, 1fr);
   background-color: whitesmoke;
   padding-bottom: 20px; }
   .cards .card {
@@ -1528,12 +1540,14 @@ nav {
   .main .fsc-description1 {
     padding-left: 15%;
     padding-right: 15%; }
-  .cards,
   .faq,
   .description2,
   .committee {
     padding-left: 12.5%;
     padding-right: 12.5%; }
+  .cards {
+    padding-left: 10%;
+    padding-right: 10%; }
   .post {
     padding-left: 10%;
     padding-right: 10%; }
@@ -1644,7 +1658,7 @@ nav {
       font-size: 19px; }
   .main .cards {
     margin-top: 2%;
-    grid-template-columns: repeat(5, 1fr); }
+    grid-template-columns: repeat(6, 1fr); }
     .main .cards .card {
       display: grid;
       grid-gap: 10px;
@@ -1750,12 +1764,14 @@ footer {
   .main .fsc-description1 {
     padding-left: 15%;
     padding-right: 15%; }
-  .cards,
   .faq,
   .description2,
   .committee {
     padding-left: 12.5%;
     padding-right: 12.5%; }
+  .cards {
+    padding-left: 10%;
+    padding-right: 10%; }
   .post {
     padding-left: 10%;
     padding-right: 10%; }
@@ -1866,7 +1882,7 @@ footer {
       font-size: 19px; }
   .main .cards {
     margin-top: 2%;
-    grid-template-columns: repeat(5, 1fr); }
+    grid-template-columns: repeat(6, 1fr); }
     .main .cards .card {
       display: grid;
       grid-gap: 10px;
