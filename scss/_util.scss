@@ -5,488 +5,527 @@ $white: #f6f9fc;
 $grey: #6b7c93;
 
 @mixin easeOut {
-	transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
 }
 
 @mixin background {
-	&#b-img {
-		background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-			url(../img/beachdayimg.jpg) no-repeat center center;
-		background-size: cover;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		position: absolute;
-		max-width: 100%;
-		min-width: 100%;
-		min-height: 100%;
-		z-index: -1;
-		overflow: hidden;
-		right: 0;
-		top: 0;
-	}
+  &#b-img {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../img/beachdayimg.jpg) no-repeat center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    position: absolute;
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    overflow: hidden;
+    right: 0;
+    top: 0;
+  }
 }
 
 @mixin backgroundfsc {
-	&#bg-img {
-		background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-			url(../img/fscpictures/FSC_1.jpg) no-repeat center center;
-		background-size: cover;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		position: absolute;
-		max-width: 100%;
-		min-width: 100%;
-		height: 100%;
-		z-index: -1;
-		overflow: hidden;
-		right: 0;
-		top: 0;
-	}
+  &#bg-img {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../img/fscpictures/FSC_1.jpg) no-repeat center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    position: absolute;
+    max-width: 100%;
+    min-width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+    right: 0;
+    top: 0;
+  }
 
-	&#bg-img-foc {
-		background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-			url(../img/focpictures/FOC5-min.jpg) no-repeat center center;
-		background-size: cover;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		position: absolute;
-		max-width: 100%;
-		min-width: 100%;
-		height: 100%;
-		z-index: -1;
-		overflow: hidden;
-		right: 0;
-		top: 0;
-	}
+  &#bg-img-foc {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../img/focpictures/FOC5-min.jpg) no-repeat center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    position: absolute;
+    max-width: 100%;
+    min-width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+    right: 0;
+    top: 0;
+  }
 
-	&#bg-img-fow {
-		background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-			url(../img/fowpictures/Photo7.jpg) no-repeat center center;
-		background-size: cover;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		position: absolute;
-		max-width: 100%;
-		min-width: 100%;
-		height: 100%;
-		z-index: -1;
-		overflow: hidden;
-		right: 0;
-		top: 0;
-	}
+  &#bg-img-fow {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../img/fowpictures/Photo7.jpg) no-repeat center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    position: absolute;
+    max-width: 100%;
+    min-width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+    right: 0;
+    top: 0;
+  }
 
-	&#bg-img-bash {
-		background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-			url(../img/bashpictures/highlight2.JPG) no-repeat center center;
-		background-size: cover;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		position: absolute;
-		max-width: 100%;
-		min-width: 100%;
-		height: 100%;
-		z-index: -1;
-		overflow: hidden;
-		right: 0;
-		top: 0;
-	}
+  &#bg-img-bash {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../img/bashpictures/highlight2.JPG) no-repeat center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    position: absolute;
+    max-width: 100%;
+    min-width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+    right: 0;
+    top: 0;
+  }
 
-	&#bg-img-rag {
-		background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-			url(../img/ragpictures/rag/p2.jpg) no-repeat center center;
-		background-size: cover;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		position: absolute;
-		max-width: 100%;
-		min-width: 100%;
-		height: 100%;
-		z-index: -1;
-		overflow: hidden;
-		right: 0;
-		top: 0;
-	}
-	&#bg-img-acad {
-		background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-			url(../img/acadpictures/background.jpg) no-repeat center center;
-		background-size: cover;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		position: absolute;
-		max-width: 100%;
-		min-width: 100%;
-		height: 100%;
-		z-index: -1;
-		overflow: hidden;
-		right: 0;
-		top: 0;
-	}
+  &#bg-img-rag {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../img/ragpictures/rag/p2.jpg) no-repeat center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    position: absolute;
+    max-width: 100%;
+    min-width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+    right: 0;
+    top: 0;
+  }
+  &#bg-img-acad {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../img/acadpictures/background.jpg) no-repeat center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    position: absolute;
+    max-width: 100%;
+    min-width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+    right: 0;
+    top: 0;
+  }
 }
 
 /* SMARTPHONES LANDSCAPE */
 @media only screen and (min-width: 480px) {
-	html {
-		background-color: whitesmoke;
-	}
+  html {
+    background-color: whitesmoke;
+  }
 
-	.main {
-		.description1 {
-			padding-left: 15%;
-			padding-right: 15%;
-		}
-		.fsc-description1 {
-			padding-left: 15%;
-			padding-right: 15%;
-		}
-	}
+  .main {
+    .description1 {
+      padding-left: 15%;
+      padding-right: 15%;
+    }
+    .fsc-description1 {
+      padding-left: 15%;
+      padding-right: 15%;
+    }
+  }
 
-	.faq,
-	.description2,
-	.committee {
-		padding-left: 12.5%;
-		padding-right: 12.5%;
-	}
+  .faq,
+  .description2,
+  .committee {
+    padding-left: 12.5%;
+    padding-right: 12.5%;
+  }
 
-	.cards {
-		padding-left: 10%;
-		padding-right: 10%;
-	}
+  .cards {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
 
-	.post {
-		padding-left: 10%;
-		padding-right: 10%;
-	}
+  .post {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
 
-	.testimonials {
-		margin-left: 10%;
-		margin-right: 10%;
-	}
+  .testimonials {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
 
-	.faq.faq_title {
-		font-weight: 800;
-	}
+  .faq.faq_title {
+    font-weight: 800;
+  }
 }
 
 /* TABLETS PORTRAIT */
 @media only screen and (min-width: 768px) {
-	header {
-		.container {
-			min-height: 70px;
+  header {
+    .container {
+      min-height: 70px;
 
-			.hamburger {
-				display: none;
-			}
+      .hamburger {
+        display: none;
+      }
 
-			.projects-nav {
-				display: flex;
-			}
+      .projects-nav {
+        display: flex;
+      }
 
-			img.main-logo {
-				align-content: flex-end;
-				height: 55px;
-				width: 220px;
-			}
-		}
-	}
+      img.main-logo {
+        align-content: flex-end;
+        height: 55px;
+        width: 220px;
+      }
+    }
+  }
 
-	.description2,
-	.committee {
-		padding-left: 20%;
-		padding-right: 20%;
-	}
+  .sponsors {
+    .sponsor-group {
+      grid-template-columns: repeat(auto-fit, minmax(150px, auto));
 
-	.gallery {
-		div.fsc-writeup1 {
-			text-align: center;
-			max-width: 80%;
-			font-size: 18px;
-		}
-		.post {
-			padding-left: 15%;
-			padding-right: 15%;
+      .sponsor {
+        .spon-img {
+          height: 150px;
+          width: 150px;
+        }
+      }
+    }
+  }
 
-			img.picture {
-				border-radius: 5px;
-			}
-			div.caption {
-				font-size: 17px;
-			}
-		}
-	}
+  .description2,
+  .committee {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
 
-	.testimonials {
-		margin-left: 20%;
-		margin-right: 20%;
-	}
+  .gallery {
+    div.fsc-writeup1 {
+      text-align: center;
+      max-width: 80%;
+      font-size: 18px;
+    }
+    .post {
+      padding-left: 15%;
+      padding-right: 15%;
 
-	.main {
-		.description1 {
-			padding-top: 40vh;
+      img.picture {
+        border-radius: 5px;
+      }
+      div.caption {
+        font-size: 17px;
+      }
+    }
+  }
 
-			.img {
-				&bg-img {
-					height: 60%;
-				}
-			}
-		}
+  .testimonials {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
 
-		.fsc-description1 {
-			div.header1 {
-				font-size: 50px;
-			}
-			div.fsc-header2 {
-				font-size: 30px;
-			}
-		}
-		.cards {
-			grid-template-columns: repeat(6, 1fr);
-			grid-template-rows: 1fr auto;
+  .main {
+    .description1 {
+      padding-top: 40vh;
 
-			.card {
-				display: grid;
-				grid-gap: 10px;
-				grid-template-areas:
-					"img"
-					"title"
-					"carddes";
+      .img {
+        &bg-img {
+          height: 60%;
+        }
+      }
+    }
 
-				img {
-					height: 80px;
-					width: 80px;
-					justify-self: center;
+    .fsc-description1 {
+      div.header1 {
+        font-size: 50px;
+      }
+      div.fsc-header2 {
+        font-size: 30px;
+      }
+    }
+    .cards {
+      grid-template-columns: repeat(6, 1fr);
+      grid-template-rows: 1fr auto;
 
-					&.e-rag {
-						height: 65px;
-					}
-				}
+      .card {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-areas:
+          "img"
+          "title"
+          "carddes";
 
-				&.camp {
-					grid-column: span 2;
-				}
-			}
-		}
+        img {
+          height: 80px;
+          width: 80px;
+          justify-self: center;
 
-		.faq {
-			margin: 0 5%;
+          &.e-rag {
+            height: 65px;
+          }
+        }
 
-			.faq_title {
-				font-weight: 800;
-			}
-		}
-	}
+        &.camp {
+          grid-column: span 2;
+        }
+      }
+    }
 
-	.committee {
-		.roundthing {
-			img {
-				height: 20vh;
-				width: 20vh;
-			}
-		}
-	}
+    .faq {
+      margin: 0 5%;
+
+      .faq_title {
+        font-weight: 800;
+      }
+    }
+  }
+
+  .committee {
+    .roundthing {
+      img {
+        height: 20vh;
+        width: 20vh;
+      }
+    }
+  }
+
+  div.sponsors {
+    .sponsor-group {
+      grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+
+      .sponsor {
+        .spon-img {
+          height: 150px;
+          width: 150px;
+        }
+      }
+    }
+  }
 }
 
 /* TABLET LANDSCAPE / DESKTOP */
 @media only screen and (min-width: 1024px) {
-	header {
-		.container {
-			.hamburger {
-				display: none;
-			}
+  header {
+    .container {
+      .hamburger {
+        display: none;
+      }
 
-			.projects-nav {
-				display: flex;
-			}
-		}
-	}
+      .projects-nav {
+        display: flex;
+      }
+    }
+  }
 
-	.gallery {
-		.post {
-			padding-left: 25%;
-			padding-right: 25%;
+  .gallery {
+    .post {
+      padding-left: 25%;
+      padding-right: 25%;
 
-			div.caption {
-				font-size: 20px;
-			}
-		}
-		div.fsc-writeup1 {
-			font-size: 28px;
-			line-height: 2rem;
-			max-width: 70%;
-		}
-	}
+      div.caption {
+        font-size: 20px;
+      }
+    }
+    div.fsc-writeup1 {
+      font-size: 28px;
+      line-height: 2rem;
+      max-width: 70%;
+    }
+  }
 
-	.main {
-		.description1 {
-			padding-top: 30vh;
+  .main {
+    .description1 {
+      padding-top: 30vh;
 
-			.header1 {
-				font-size: 50px;
-				margin-bottom: 10px;
-			}
+      .header1 {
+        font-size: 50px;
+        margin-bottom: 10px;
+      }
 
-			.writeup1 {
-				font-size: 25px;
-			}
-		}
+      .writeup1 {
+        font-size: 25px;
+      }
+    }
 
-		div.fsc-description1 {
-			height: 70vh;
-			padding-left: 20vh;
-			div.header1 {
-				font-size: 50px;
-			}
-			div.fsc-header2 {
-				font-size: 40px;
-			}
-		}
+    div.fsc-description1 {
+      height: 70vh;
+      padding-left: 20vh;
+      div.header1 {
+        font-size: 50px;
+      }
+      div.fsc-header2 {
+        font-size: 40px;
+      }
+    }
 
-		.description2 {
-			grid-gap: 0;
+    .description2 {
+      grid-gap: 0;
 
-			img {
-				height: 200px;
-				width: 300px;
-			}
-			.d2header {
-				font-size: 25px;
-			}
-			.d2writeup {
-				font-size: 19px;
-			}
-		}
-		.cards {
-			margin-top: 2%;
-			grid-template-columns: repeat(6, 1fr);
+      img {
+        height: 200px;
+        width: 300px;
+      }
+      .d2header {
+        font-size: 25px;
+      }
+      .d2writeup {
+        font-size: 19px;
+      }
+    }
+    .cards {
+      margin-top: 2%;
+      grid-template-columns: repeat(6, 1fr);
 
-			.card {
-				display: grid;
-				grid-gap: 10px;
-				grid-template-areas:
-					"img"
-					"title"
-					"carddes";
-				padding: 30px 30px;
+      .card {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-areas:
+          "img"
+          "title"
+          "carddes";
+        padding: 30px 30px;
 
-				.title {
-					font-size: 18px;
-					font-weight: 500;
-				}
-				.carddes {
-					font-size: 16px;
-				}
+        .title {
+          font-size: 18px;
+          font-weight: 500;
+        }
+        .carddes {
+          font-size: 16px;
+        }
 
-				img {
-					height: 80px;
-					width: 80px;
-					justify-self: center;
+        img {
+          height: 80px;
+          width: 80px;
+          justify-self: center;
 
-					&.e-rag {
-						height: 65px;
-					}
-				}
+          &.e-rag {
+            height: 65px;
+          }
+        }
 
-				&.camp {
-					grid-column: span 1;
-				}
+        &.camp {
+          grid-column: span 1;
+        }
 
-				&.event {
-					grid-column: span 1;
-				}
-			}
-		}
+        &.event {
+          grid-column: span 1;
+        }
+      }
+    }
 
-		.faq {
-			margin: 0% 15%;
-			.faq_title {
-				font-size: 25px;
-				font-weight: 800;
-			}
-			.faq_container {
-				font-size: 17px;
-			}
-		}
-	}
+    .faq {
+      margin: 0% 15%;
+      .faq_title {
+        font-size: 25px;
+        font-weight: 800;
+      }
+      .faq_container {
+        font-size: 17px;
+      }
+    }
+  }
 
-	.committee {
-		.header {
-			font-size: 20px;
-		}
-		.head {
-			grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-			.roundthing {
-				justify-self: center;
-				width: min-content;
-				img {
-					min-width: 180px;
-					min-height: 180px;
-				}
-				div.name {
-					font-size: 17px;
-				}
-				div.role {
-					font-size: 17px;
-				}
-			}
-		}
+  .committee {
+    .header {
+      font-size: 20px;
+    }
+    .head {
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      .roundthing {
+        justify-self: center;
+        width: min-content;
+        img {
+          min-width: 180px;
+          min-height: 180px;
+        }
+        div.name {
+          font-size: 17px;
+        }
+        div.role {
+          font-size: 17px;
+        }
+      }
+    }
 
-		div.grid {
-			grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
-			.roundthing {
-				img {
-					min-width: 140px;
-					min-height: 140px;
-				}
-				.name {
-					font-size: 15px;
-				}
-				.role {
-					font-size: 15px;
-				}
-			}
-		}
-	}
+    div.grid {
+      grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+      .roundthing {
+        img {
+          min-width: 140px;
+          min-height: 140px;
+        }
+        .name {
+          font-size: 15px;
+        }
+        .role {
+          font-size: 15px;
+        }
+      }
+    }
+  }
 
-	div.testimonials {
-		.header12 {
-			font-size: 20px;
-		}
-		p {
-			font-size: 18px;
-			max-width: 80%;
-			margin: 3% auto;
-		}
-		label {
-			font-size: 19px;
-		}
-		section {
-			ul {
-				margin: 3% auto;
-				li {
-					div.date {
-						font-size: 20px;
-						display: inline-block;
-					}
-					div.eventname {
-						font-size: 18px;
-						display: inline-block;
-						padding-left: 20px;
-					}
-				}
-			}
-		}
-	}
+  div.testimonials {
+    .header12 {
+      font-size: 20px;
+    }
+    p {
+      font-size: 18px;
+      max-width: 80%;
+      margin: 3% auto;
+    }
+    label {
+      font-size: 19px;
+    }
+    section {
+      ul {
+        margin: 3% auto;
+        li {
+          div.date {
+            font-size: 20px;
+            display: inline-block;
+          }
+          div.eventname {
+            font-size: 18px;
+            display: inline-block;
+            padding-left: 20px;
+          }
+        }
+      }
+    }
+  }
 
-	footer {
-		.credits {
-			font-size: 16px;
-		}
-		padding-bottom: 5%;
-	}
+  div.sponsors {
+    .sponsor-group {
+      grid-template-columns: repeat(auto-fit, minmax(175px, auto));
+
+      .sponsor {
+        .spon-img {
+          height: 175px;
+          width: 175px;
+        }
+      }
+    }
+  }
+
+  footer {
+    .credits {
+      font-size: 16px;
+    }
+    padding-bottom: 5%;
+  }
 }

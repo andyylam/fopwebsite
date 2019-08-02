@@ -81,6 +81,11 @@
       align-content: flex-end;
       height: 55px;
       width: 220px; }
+  .sponsors .sponsor-group {
+    grid-template-columns: repeat(auto-fit, minmax(150px, auto)); }
+    .sponsors .sponsor-group .sponsor .spon-img {
+      height: 150px;
+      width: 150px; }
   .description2,
   .committee {
     padding-left: 20%;
@@ -113,7 +118,7 @@
     .main .cards .card {
       display: grid;
       grid-gap: 10px;
-      grid-template-areas: "img" "title" "carddes"; }
+      grid-template-areas: "img" "title" "carddes"; }
       .main .cards .card img {
         height: 80px;
         width: 80px;
@@ -128,7 +133,12 @@
       font-weight: 800; }
   .committee .roundthing img {
     height: 20vh;
-    width: 20vh; } }
+    width: 20vh; }
+  div.sponsors .sponsor-group {
+    grid-template-columns: repeat(auto-fit, minmax(150px, auto)); }
+    div.sponsors .sponsor-group .sponsor .spon-img {
+      height: 150px;
+      width: 150px; } }
 
 /* TABLET LANDSCAPE / DESKTOP */
 @media only screen and (min-width: 1024px) {
@@ -174,7 +184,7 @@
     .main .cards .card {
       display: grid;
       grid-gap: 10px;
-      grid-template-areas: "img" "title" "carddes";
+      grid-template-areas: "img" "title" "carddes";
       padding: 30px 30px; }
       .main .cards .card .title {
         font-size: 18px;
@@ -238,6 +248,11 @@
       font-size: 18px;
       display: inline-block;
       padding-left: 20px; }
+  div.sponsors .sponsor-group {
+    grid-template-columns: repeat(auto-fit, minmax(175px, auto)); }
+    div.sponsors .sponsor-group .sponsor .spon-img {
+      height: 175px;
+      width: 175px; }
   footer {
     padding-bottom: 5%; }
     footer .credits {
@@ -347,6 +362,11 @@
       align-content: flex-end;
       height: 55px;
       width: 220px; }
+  .sponsors .sponsor-group {
+    grid-template-columns: repeat(auto-fit, minmax(150px, auto)); }
+    .sponsors .sponsor-group .sponsor .spon-img {
+      height: 150px;
+      width: 150px; }
   .description2,
   .committee {
     padding-left: 20%;
@@ -379,7 +399,7 @@
     .main .cards .card {
       display: grid;
       grid-gap: 10px;
-      grid-template-areas: "img" "title" "carddes"; }
+      grid-template-areas: "img" "title" "carddes"; }
       .main .cards .card img {
         height: 80px;
         width: 80px;
@@ -394,7 +414,12 @@
       font-weight: 800; }
   .committee .roundthing img {
     height: 20vh;
-    width: 20vh; } }
+    width: 20vh; }
+  div.sponsors .sponsor-group {
+    grid-template-columns: repeat(auto-fit, minmax(150px, auto)); }
+    div.sponsors .sponsor-group .sponsor .spon-img {
+      height: 150px;
+      width: 150px; } }
 
 /* TABLET LANDSCAPE / DESKTOP */
 @media only screen and (min-width: 1024px) {
@@ -440,7 +465,7 @@
     .main .cards .card {
       display: grid;
       grid-gap: 10px;
-      grid-template-areas: "img" "title" "carddes";
+      grid-template-areas: "img" "title" "carddes";
       padding: 30px 30px; }
       .main .cards .card .title {
         font-size: 18px;
@@ -504,6 +529,11 @@
       font-size: 18px;
       display: inline-block;
       padding-left: 20px; }
+  div.sponsors .sponsor-group {
+    grid-template-columns: repeat(auto-fit, minmax(175px, auto)); }
+    div.sponsors .sponsor-group .sponsor .spon-img {
+      height: 175px;
+      width: 175px; }
   footer {
     padding-bottom: 5%; }
     footer .credits {
@@ -548,6 +578,11 @@
       align-content: flex-end;
       height: 55px;
       width: 220px; }
+  .sponsors .sponsor-group {
+    grid-template-columns: repeat(auto-fit, minmax(150px, auto)); }
+    .sponsors .sponsor-group .sponsor .spon-img {
+      height: 150px;
+      width: 150px; }
   .description2,
   .committee {
     padding-left: 20%;
@@ -580,7 +615,7 @@
     .main .cards .card {
       display: grid;
       grid-gap: 10px;
-      grid-template-areas: "img" "title" "carddes"; }
+      grid-template-areas: "img" "title" "carddes"; }
       .main .cards .card img {
         height: 80px;
         width: 80px;
@@ -595,7 +630,12 @@
       font-weight: 800; }
   .committee .roundthing img {
     height: 20vh;
-    width: 20vh; } }
+    width: 20vh; }
+  div.sponsors .sponsor-group {
+    grid-template-columns: repeat(auto-fit, minmax(150px, auto)); }
+    div.sponsors .sponsor-group .sponsor .spon-img {
+      height: 150px;
+      width: 150px; } }
 
 /* TABLET LANDSCAPE / DESKTOP */
 @media only screen and (min-width: 1024px) {
@@ -641,7 +681,7 @@
     .main .cards .card {
       display: grid;
       grid-gap: 10px;
-      grid-template-areas: "img" "title" "carddes";
+      grid-template-areas: "img" "title" "carddes";
       padding: 30px 30px; }
       .main .cards .card .title {
         font-size: 18px;
@@ -705,6 +745,11 @@
       font-size: 18px;
       display: inline-block;
       padding-left: 20px; }
+  div.sponsors .sponsor-group {
+    grid-template-columns: repeat(auto-fit, minmax(175px, auto)); }
+    div.sponsors .sponsor-group .sponsor .spon-img {
+      height: 175px;
+      width: 175px; }
   footer {
     padding-bottom: 5%; }
     footer .credits {
@@ -806,6 +851,11 @@ header {
       align-content: flex-end;
       height: 55px;
       width: 220px; }
+  .sponsors .sponsor-group {
+    grid-template-columns: repeat(auto-fit, minmax(150px, auto)); }
+    .sponsors .sponsor-group .sponsor .spon-img {
+      height: 150px;
+      width: 150px; }
   .description2,
   .committee {
     padding-left: 20%;
@@ -838,7 +888,7 @@ header {
     .main .cards .card {
       display: grid;
       grid-gap: 10px;
-      grid-template-areas: "img" "title" "carddes"; }
+      grid-template-areas: "img" "title" "carddes"; }
       .main .cards .card img {
         height: 80px;
         width: 80px;
@@ -853,7 +903,12 @@ header {
       font-weight: 800; }
   .committee .roundthing img {
     height: 20vh;
-    width: 20vh; } }
+    width: 20vh; }
+  div.sponsors .sponsor-group {
+    grid-template-columns: repeat(auto-fit, minmax(150px, auto)); }
+    div.sponsors .sponsor-group .sponsor .spon-img {
+      height: 150px;
+      width: 150px; } }
 
 /* TABLET LANDSCAPE / DESKTOP */
 @media only screen and (min-width: 1024px) {
@@ -899,7 +954,7 @@ header {
     .main .cards .card {
       display: grid;
       grid-gap: 10px;
-      grid-template-areas: "img" "title" "carddes";
+      grid-template-areas: "img" "title" "carddes";
       padding: 30px 30px; }
       .main .cards .card .title {
         font-size: 18px;
@@ -963,6 +1018,11 @@ header {
       font-size: 18px;
       display: inline-block;
       padding-left: 20px; }
+  div.sponsors .sponsor-group {
+    grid-template-columns: repeat(auto-fit, minmax(175px, auto)); }
+    div.sponsors .sponsor-group .sponsor .spon-img {
+      height: 175px;
+      width: 175px; }
   footer {
     padding-bottom: 5%; }
     footer .credits {
@@ -1083,6 +1143,11 @@ nav {
       align-content: flex-end;
       height: 55px;
       width: 220px; }
+  .sponsors .sponsor-group {
+    grid-template-columns: repeat(auto-fit, minmax(150px, auto)); }
+    .sponsors .sponsor-group .sponsor .spon-img {
+      height: 150px;
+      width: 150px; }
   .description2,
   .committee {
     padding-left: 20%;
@@ -1115,7 +1180,7 @@ nav {
     .main .cards .card {
       display: grid;
       grid-gap: 10px;
-      grid-template-areas: "img" "title" "carddes"; }
+      grid-template-areas: "img" "title" "carddes"; }
       .main .cards .card img {
         height: 80px;
         width: 80px;
@@ -1130,7 +1195,12 @@ nav {
       font-weight: 800; }
   .committee .roundthing img {
     height: 20vh;
-    width: 20vh; } }
+    width: 20vh; }
+  div.sponsors .sponsor-group {
+    grid-template-columns: repeat(auto-fit, minmax(150px, auto)); }
+    div.sponsors .sponsor-group .sponsor .spon-img {
+      height: 150px;
+      width: 150px; } }
 
 /* TABLET LANDSCAPE / DESKTOP */
 @media only screen and (min-width: 1024px) {
@@ -1176,7 +1246,7 @@ nav {
     .main .cards .card {
       display: grid;
       grid-gap: 10px;
-      grid-template-areas: "img" "title" "carddes";
+      grid-template-areas: "img" "title" "carddes";
       padding: 30px 30px; }
       .main .cards .card .title {
         font-size: 18px;
@@ -1240,6 +1310,11 @@ nav {
       font-size: 18px;
       display: inline-block;
       padding-left: 20px; }
+  div.sponsors .sponsor-group {
+    grid-template-columns: repeat(auto-fit, minmax(175px, auto)); }
+    div.sponsors .sponsor-group .sponsor .spon-img {
+      height: 175px;
+      width: 175px; }
   footer {
     padding-bottom: 5%; }
     footer .credits {
@@ -1305,6 +1380,11 @@ nav {
       align-content: flex-end;
       height: 55px;
       width: 220px; }
+  .sponsors .sponsor-group {
+    grid-template-columns: repeat(auto-fit, minmax(150px, auto)); }
+    .sponsors .sponsor-group .sponsor .spon-img {
+      height: 150px;
+      width: 150px; }
   .description2,
   .committee {
     padding-left: 20%;
@@ -1337,7 +1417,7 @@ nav {
     .main .cards .card {
       display: grid;
       grid-gap: 10px;
-      grid-template-areas: "img" "title" "carddes"; }
+      grid-template-areas: "img" "title" "carddes"; }
       .main .cards .card img {
         height: 80px;
         width: 80px;
@@ -1352,7 +1432,12 @@ nav {
       font-weight: 800; }
   .committee .roundthing img {
     height: 20vh;
-    width: 20vh; } }
+    width: 20vh; }
+  div.sponsors .sponsor-group {
+    grid-template-columns: repeat(auto-fit, minmax(150px, auto)); }
+    div.sponsors .sponsor-group .sponsor .spon-img {
+      height: 150px;
+      width: 150px; } }
 
 /* TABLET LANDSCAPE / DESKTOP */
 @media only screen and (min-width: 1024px) {
@@ -1398,7 +1483,7 @@ nav {
     .main .cards .card {
       display: grid;
       grid-gap: 10px;
-      grid-template-areas: "img" "title" "carddes";
+      grid-template-areas: "img" "title" "carddes";
       padding: 30px 30px; }
       .main .cards .card .title {
         font-size: 18px;
@@ -1462,6 +1547,11 @@ nav {
       font-size: 18px;
       display: inline-block;
       padding-left: 20px; }
+  div.sponsors .sponsor-group {
+    grid-template-columns: repeat(auto-fit, minmax(175px, auto)); }
+    div.sponsors .sponsor-group .sponsor .spon-img {
+      height: 175px;
+      width: 175px; }
   footer {
     padding-bottom: 5%; }
     footer .credits {
@@ -1485,7 +1575,7 @@ nav {
     padding: 10px 30px;
     display: grid;
     grid-gap: 10px;
-    grid-template-areas: "img title" "img carddes";
+    grid-template-areas: "img title" "img carddes";
     align-items: center; }
     .cards .card img {
       grid-area: "img";
@@ -1569,6 +1659,11 @@ nav {
       align-content: flex-end;
       height: 55px;
       width: 220px; }
+  .sponsors .sponsor-group {
+    grid-template-columns: repeat(auto-fit, minmax(150px, auto)); }
+    .sponsors .sponsor-group .sponsor .spon-img {
+      height: 150px;
+      width: 150px; }
   .description2,
   .committee {
     padding-left: 20%;
@@ -1601,7 +1696,7 @@ nav {
     .main .cards .card {
       display: grid;
       grid-gap: 10px;
-      grid-template-areas: "img" "title" "carddes"; }
+      grid-template-areas: "img" "title" "carddes"; }
       .main .cards .card img {
         height: 80px;
         width: 80px;
@@ -1616,7 +1711,12 @@ nav {
       font-weight: 800; }
   .committee .roundthing img {
     height: 20vh;
-    width: 20vh; } }
+    width: 20vh; }
+  div.sponsors .sponsor-group {
+    grid-template-columns: repeat(auto-fit, minmax(150px, auto)); }
+    div.sponsors .sponsor-group .sponsor .spon-img {
+      height: 150px;
+      width: 150px; } }
 
 /* TABLET LANDSCAPE / DESKTOP */
 @media only screen and (min-width: 1024px) {
@@ -1662,7 +1762,7 @@ nav {
     .main .cards .card {
       display: grid;
       grid-gap: 10px;
-      grid-template-areas: "img" "title" "carddes";
+      grid-template-areas: "img" "title" "carddes";
       padding: 30px 30px; }
       .main .cards .card .title {
         font-size: 18px;
@@ -1726,6 +1826,11 @@ nav {
       font-size: 18px;
       display: inline-block;
       padding-left: 20px; }
+  div.sponsors .sponsor-group {
+    grid-template-columns: repeat(auto-fit, minmax(175px, auto)); }
+    div.sponsors .sponsor-group .sponsor .spon-img {
+      height: 175px;
+      width: 175px; }
   footer {
     padding-bottom: 5%; }
     footer .credits {
@@ -1793,6 +1898,11 @@ footer {
       align-content: flex-end;
       height: 55px;
       width: 220px; }
+  .sponsors .sponsor-group {
+    grid-template-columns: repeat(auto-fit, minmax(150px, auto)); }
+    .sponsors .sponsor-group .sponsor .spon-img {
+      height: 150px;
+      width: 150px; }
   .description2,
   .committee {
     padding-left: 20%;
@@ -1825,7 +1935,7 @@ footer {
     .main .cards .card {
       display: grid;
       grid-gap: 10px;
-      grid-template-areas: "img" "title" "carddes"; }
+      grid-template-areas: "img" "title" "carddes"; }
       .main .cards .card img {
         height: 80px;
         width: 80px;
@@ -1840,7 +1950,12 @@ footer {
       font-weight: 800; }
   .committee .roundthing img {
     height: 20vh;
-    width: 20vh; } }
+    width: 20vh; }
+  div.sponsors .sponsor-group {
+    grid-template-columns: repeat(auto-fit, minmax(150px, auto)); }
+    div.sponsors .sponsor-group .sponsor .spon-img {
+      height: 150px;
+      width: 150px; } }
 
 /* TABLET LANDSCAPE / DESKTOP */
 @media only screen and (min-width: 1024px) {
@@ -1886,7 +2001,7 @@ footer {
     .main .cards .card {
       display: grid;
       grid-gap: 10px;
-      grid-template-areas: "img" "title" "carddes";
+      grid-template-areas: "img" "title" "carddes";
       padding: 30px 30px; }
       .main .cards .card .title {
         font-size: 18px;
@@ -1950,6 +2065,11 @@ footer {
       font-size: 18px;
       display: inline-block;
       padding-left: 20px; }
+  div.sponsors .sponsor-group {
+    grid-template-columns: repeat(auto-fit, minmax(175px, auto)); }
+    div.sponsors .sponsor-group .sponsor .spon-img {
+      height: 175px;
+      width: 175px; }
   footer {
     padding-bottom: 5%; }
     footer .credits {
@@ -2222,6 +2342,60 @@ footer {
         font-weight: 400;
         font-size: 12px; }
 
+.sponsors {
+  width: 70%;
+  border-top: 1px solid lightgrey;
+  margin: auto;
+  padding-bottom: 30px; }
+  .sponsors #sponsors-header {
+    margin-top: 30px;
+    color: #242325;
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center; }
+  .sponsors #sponsors-desc {
+    margin: 30px 0;
+    color: #242325;
+    text-align: center; }
+  .sponsors #sponsor-group-desc {
+    margin: 20px 0;
+    color: #242325;
+    font-weight: 450;
+    font-size: 20px;
+    text-align: center; }
+  .sponsors .sponsor-group {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(125px, auto));
+    grid-auto-flow: 0;
+    overflow: hidden;
+    justify-content: center; }
+    .sponsors .sponsor-group#overall-sponsor {
+      grid-template-columns: repeat(3, 1fr); }
+    .sponsors .sponsor-group#male-sponsor {
+      grid-template-columns: repeat(2, 1fr); }
+    .sponsors .sponsor-group#overall-sponsor {
+      grid-template-columns: repeat(4, 1fr); }
+    .sponsors .sponsor-group .sponsor {
+      justify-self: center;
+      margin: 10px; }
+      .sponsors .sponsor-group .sponsor .spon-img {
+        height: 125px;
+        width: 125px;
+        background-color: white;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        overflow: hidden;
+        border-radius: 50%;
+        border: solid 1px lightgrey; }
+        .sponsors .sponsor-group .sponsor .spon-img img {
+          max-width: 75%;
+          height: auto; }
+      .sponsors .sponsor-group .sponsor .sponsor-desc {
+        color: #6b7c93;
+        text-align: center;
+        font-size: 13px; }
+
 * {
   font-family: "Camphor", "Open Sans", "Segoe UI", sans-serif;
   color: #f6f9fc;
@@ -2229,7 +2403,7 @@ footer {
 
 a {
   transition: all 0.2s ease;
-  transition-property: transform, opacity, color, border-color, background-color; }
+  transition-property: transform, opacity, color, border-color, background-color; }
 
 html,
 body {
