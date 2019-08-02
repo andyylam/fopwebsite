@@ -37,21 +37,24 @@ const getColour = image => {
   return canvas.getContext("2d").getImageData(5, 5, 1, 1).data;
 };
 
-document.querySelectorAll(".spon-img").forEach(imageDiv => {
-  const image = imageDiv.childNodes[1];
-  let color;
-  if (image.complete) {
-    color = getColour(image);
-  } else {
-    image.addEventListener("load", () => {
+window.onload = () => {
+  document.querySelectorAll(".spon-img").forEach(imageDiv => {
+    const image = imageDiv.childNodes[1];
+    let color;
+    if (image.complete) {
+      console.log(image.complete + " complete");
+
       color = getColour(image);
-    });
-  }
-  if (color[3] == "0") {
-    imageDiv.style.backgroundColor = "white";
-  } else {
-    imageDiv.style.backgroundColor = `rgb(${color[0]}, ${color[1]}, ${
-      color[2]
-    })`;
-  }
-});
+    } else {
+      console.log(image.complete + " not complete");
+      image.addEventListener("load", () => (color = getColour(image)));
+    }
+    if (!color || color[3] === 0) {
+      imageDiv.style.backgroundColor = "white";
+    } else {
+      imageDiv.style.backgroundColor = `rgb(${color[0]}, ${color[1]}, ${
+        color[2]
+      })`;
+    }
+  });
+};
